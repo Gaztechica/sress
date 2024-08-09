@@ -1,0 +1,2624 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "open",
+        "openMode": "new",
+        "isActive": true,
+        "formName": "\u041f\u0440\u0438\u043a\u0430\u0437\u044b \u043e\u0431 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0438/\u043e\u0442\u043c\u0435\u043d\u0435 \u043d\u0430\u0434\u0431\u0430\u0432\u043e\u043a(\u0434\u043e\u043f\u043b\u0430\u0442)",
+        "formId": "231",
+        "formIcon": "Com/Attachment/Icons/table.svg",
+        "fixed": false
+      },
+      "view": {
+        "name": "RootFrame",
+        "caption": "",
+        "type": "frame",
+        "orientation": "vertical",
+        "elements": [
+          {
+            "type": "frame",
+            "elements": [
+              {
+                "type": "menuBar",
+                "menuStyle": "popup",
+                "name": "HeaderFrame",
+                "elements": [
+                  {
+                    "name": "ButtonSelectItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/SelectItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": "\u0412\u044b\u0431\u0440\u0430\u0442\u044c"
+                  },
+                  {
+                    "name": "ButtonAddItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/AddItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonEditItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/EditItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonSaveItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/SaveItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonCancel",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Cancel.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "\u0421md:ReportsList",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/ReportsList.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": []
+                  },
+                  {
+                    "name": "Cmd:Services",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Services.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Control/Attachment/Icons/exclamation.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ButtonFilters",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Filters.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "ButtonHideClosed",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0422\u043e\u043b\u044c\u043a\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0435"
+                      },
+                      {
+                        "name": "ButtonNavigationPanel",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u041f\u0430\u043d\u0435\u043b\u044c \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438"
+                      },
+                      {
+                        "name": "ButtonHierarchicalView",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0418\u0435\u0440\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0432\u0438\u0434"
+                      },
+                      {
+                        "name": "ButtonShowDeleted",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0423\u0434\u0430\u043b\u0435\u043d\u043d\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438"
+                      },
+                      {
+                        "name": "FilterSeparator",
+                        "type": "separator"
+                      },
+                      {
+                        "name": "ButtonNSSaveAs",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Bas/Attachment/Icons/puzzle4.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438..."
+                      },
+                      {
+                        "name": "ButtonNSManager",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Bas/Attachment/Icons/puzzleOk.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u0414\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a"
+                      },
+                      {
+                        "name": "ButtonNSDefault",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Bas/Attachment/Icons/puzzleLock.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "<\u041f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e>"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ButtonClose",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Close.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "Ctrl.IListButton10",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/angle-down.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "ButtonCloneItem",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/CloneItem.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u0414\u0443\u0431\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c"
+                      },
+                      {
+                        "name": "ButtonDeleteItem",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/DeleteItem.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c"
+                      },
+                      {
+                        "name": "ButtonAddFolder",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/AddFolder.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0433\u0440\u0443\u043f\u043f\u0443"
+                      },
+                      {
+                        "name": "ButtonFolderElement",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/FolderElement.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u0413\u0440\u0443\u043f\u043f\u0430/\u044d\u043b\u0435\u043c\u0435\u043d\u0442"
+                      },
+                      {
+                        "name": "ButtonRefresh",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/Refresh.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c"
+                      },
+                      {
+                        "name": "HeaderSeparator1",
+                        "type": "separator"
+                      },
+                      {
+                        "name": "ButtonHelp",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/Help.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "\u041f\u043e\u043c\u043e\u0449\u044c"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "name": "HeaderFrame_wrap",
+            "autoSize": true
+          },
+          {
+            "name": "NavigatorFrame",
+            "caption": "",
+            "type": "frame",
+            "orientation": "vertical",
+            "elements": [
+              {
+                "name": "NavigatorGroup",
+                "type": "group",
+                "elements": [
+                  {
+                    "name": "ButtonTree",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/folder-tree.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonBack",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Back.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonForward",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Forward.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "PathEdit",
+                    "action": [
+                      "onEnter",
+                      "onEdit"
+                    ],
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "string",
+                    "valuetype": "string",
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "FilterEdit",
+                    "action": [
+                      "onChange",
+                      "onLookup",
+                      "onEdit"
+                    ],
+                    "isFixed": true,
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "enum",
+                    "valuetype": "string",
+                    "listValues": [
+                      {
+                        "value": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c = \u0414\u0430",
+                        "key": "True"
+                      },
+                      {
+                        "value": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c = \u041d\u0435\u0442",
+                        "key": "False"
+                      }
+                    ],
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "FilterEdit1",
+                    "action": [
+                      "onEnter",
+                      "onEdit"
+                    ],
+                    "isFixed": true,
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "string",
+                    "valuetype": "string",
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "FilterEdit2",
+                    "action": [
+                      "onEnter",
+                      "onEdit"
+                    ],
+                    "isFixed": true,
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "string",
+                    "valuetype": "string",
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "ButtonFields",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Filters.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c"
+                      },
+                      {
+                        "name": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435.Name_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435"
+                      },
+                      {
+                        "name": "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430.Name_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0422\u0438\u043f \u043f\u0440\u0438\u043a\u0430\u0437\u0430"
+                      },
+                      {
+                        "name": "\u041d\u043e\u043c\u0435\u0440_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u041d\u043e\u043c\u0435\u0440 \u043f\u0440\u0438\u043a\u0430\u0437\u0430"
+                      },
+                      {
+                        "name": "\u0414\u0430\u0442\u0430_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0414\u0430\u0442\u0430 \u043f\u0440\u0438\u043a\u0430\u0437\u0430"
+                      },
+                      {
+                        "name": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a.Name_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a"
+                      },
+                      {
+                        "name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440.\u0422\u0430\u0431\u041d\u043e\u043c\u0435\u0440_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0422\u0430\u0431. \u043d\u043e\u043c\u0435\u0440"
+                      },
+                      {
+                        "name": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439"
+                      },
+                      {
+                        "name": "Locked_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "\u0417\u0430\u043c\u043e\u043a"
+                      }
+                    ]
+                  }
+                ],
+                "behavior": "horizontal",
+                "isFlexible": true
+              }
+            ]
+          },
+          {
+            "name": "MainFrame",
+            "caption": "",
+            "type": "frame",
+            "orientation": "horizontal",
+            "elements": [
+              {
+                "name": "FrameCardTree",
+                "caption": "",
+                "type": "frame",
+                "orientation": "vertical",
+                "isFixed": true,
+                "elements": [
+                  {
+                    "name": "CardTree",
+                    "action": [
+                      "onExpand",
+                      "onChange",
+                      "onDblClick"
+                    ],
+                    "type": "tree"
+                  }
+                ]
+              },
+              {
+                "name": "FrameCardFile",
+                "caption": "",
+                "type": "frame",
+                "orientation": "vertical",
+                "elements": [
+                  {
+                    "name": "CardFile",
+                    "type": "table",
+                    "isFlexible": true,
+                    "isIssueList": true,
+                    "showScroll": true,
+                    "showIconColumn": true,
+                    "showSelectColumn": true,
+                    "showFilter": false,
+                    "filter": "",
+                    "isFilterActive": false,
+                    "elements": [
+                      {
+                        "name": "Cmd2.IItem86",
+                        "disabled": false,
+                        "caption": "\u0417\u0430\u043a\u0440\u044b\u0442\u044c",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/Close.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.ISeparator87",
+                        "type": "separator",
+                        "caption": "",
+                        "collapsible": false
+                      },
+                      {
+                        "name": "Cmd2.IItem88",
+                        "disabled": false,
+                        "caption": "\u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/EditItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem89",
+                        "disabled": false,
+                        "caption": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/AddItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem90",
+                        "disabled": false,
+                        "caption": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0433\u0440\u0443\u043f\u043f\u0443",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/AddFolder.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem91",
+                        "disabled": false,
+                        "caption": "\u0414\u0443\u0431\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/CloneItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem92",
+                        "disabled": false,
+                        "caption": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/DeleteItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem93",
+                        "disabled": false,
+                        "caption": "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/UndeleteItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem94",
+                        "disabled": false,
+                        "caption": "\u0424\u0438\u043b\u044c\u0442\u0440",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/Filter.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem95",
+                        "disabled": false,
+                        "caption": "\u041f\u043e\u0438\u0441\u043a",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/Search.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.ISeparator96",
+                        "type": "separator",
+                        "caption": "",
+                        "collapsible": false
+                      },
+                      {
+                        "name": "CardExport",
+                        "type": "group",
+                        "hidden": false,
+                        "caption": "\u042d\u043a\u0441\u043f\u043e\u0440\u0442",
+                        "disabled": false,
+                        "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                        "elements": [
+                          {
+                            "name": "Cmd2.IItem98",
+                            "disabled": false,
+                            "caption": "\u042d\u043a\u0441\u043f\u043e\u0440\u0442 \u0432 xml",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          },
+                          {
+                            "name": "Cmd2.IItem99",
+                            "disabled": false,
+                            "caption": "\u042d\u043a\u0441\u043f\u043e\u0440\u0442 \u0432 csv",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          },
+                          {
+                            "name": "Cmd2.IItem100",
+                            "disabled": false,
+                            "caption": "\u042d\u043a\u0441\u043f\u043e\u0440\u0442 \u0432 ods",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          },
+                          {
+                            "name": "Cmd2.IItem101",
+                            "disabled": false,
+                            "caption": "\u042d\u043a\u0441\u043f\u043e\u0440\u0442 \u0432 odt",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          }
+                        ]
+                      }
+                    ],
+                    "headers": [
+                      [
+                        {
+                          "name": "DocId",
+                          "linkedColumns": [
+                            "DocId"
+                          ]
+                        },
+                        {
+                          "name": "ExtId",
+                          "linkedColumns": [
+                            "ExtId"
+                          ]
+                        },
+                        {
+                          "name": "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c",
+                          "linkedColumns": [
+                            "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c"
+                          ]
+                        },
+                        {
+                          "name": "CreateDate",
+                          "linkedColumns": [
+                            "CreateDate"
+                          ]
+                        },
+                        {
+                          "name": "CreateUser",
+                          "linkedColumns": [
+                            "CreateUser"
+                          ]
+                        },
+                        {
+                          "name": "UpdateDate",
+                          "linkedColumns": [
+                            "UpdateDate"
+                          ]
+                        },
+                        {
+                          "name": "UpdateUser",
+                          "linkedColumns": [
+                            "UpdateUser"
+                          ]
+                        },
+                        {
+                          "name": "ModifyDate",
+                          "linkedColumns": [
+                            "ModifyDate"
+                          ]
+                        },
+                        {
+                          "name": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435",
+                          "linkedColumns": [
+                            "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435"
+                          ]
+                        },
+                        {
+                          "name": "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430",
+                          "linkedColumns": [
+                            "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430"
+                          ]
+                        },
+                        {
+                          "name": "\u041d\u043e\u043c\u0435\u0440",
+                          "linkedColumns": [
+                            "\u041d\u043e\u043c\u0435\u0440"
+                          ]
+                        },
+                        {
+                          "name": "\u0414\u0430\u0442\u0430",
+                          "linkedColumns": [
+                            "\u0414\u0430\u0442\u0430"
+                          ]
+                        },
+                        {
+                          "name": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+                          "linkedColumns": [
+                            "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a"
+                          ]
+                        },
+                        {
+                          "name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440",
+                          "linkedColumns": [
+                            "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440"
+                          ]
+                        },
+                        {
+                          "name": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439",
+                          "linkedColumns": [
+                            "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439"
+                          ]
+                        },
+                        {
+                          "name": "\u041c\u043e\u0442\u0438\u0432",
+                          "linkedColumns": [
+                            "\u041c\u043e\u0442\u0438\u0432"
+                          ]
+                        },
+                        {
+                          "name": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430",
+                          "linkedColumns": [
+                            "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430"
+                          ]
+                        },
+                        {
+                          "name": "\u041a\u043e\u0440\u0440\u041f\u0440\u0438\u043a\u0430\u0437",
+                          "linkedColumns": [
+                            "\u041a\u043e\u0440\u0440\u041f\u0440\u0438\u043a\u0430\u0437"
+                          ]
+                        },
+                        {
+                          "name": "\u0421\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d",
+                          "linkedColumns": [
+                            "\u0421\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d"
+                          ]
+                        },
+                        {
+                          "name": "\u0417\u0430\u043c\u043e\u043a",
+                          "linkedColumns": [
+                            "\u0417\u0430\u043c\u043e\u043a"
+                          ]
+                        },
+                        {
+                          "name": "\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435",
+                          "linkedColumns": [
+                            "\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435"
+                          ]
+                        }
+                      ]
+                    ],
+                    "rows": [
+                      [
+                        {
+                          "elements": {
+                            "name": "DocId",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "ExtId",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c",
+                            "action": [
+                              "onEnter"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "checkbox",
+                            "valuetype": "boolean",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "CreateDate",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "date",
+                            "valuetype": "date",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "CreateUser",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "UpdateDate",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "date",
+                            "valuetype": "date",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "UpdateUser",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "ModifyDate",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "date",
+                            "valuetype": "date",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435",
+                            "action": [
+                              "onEnter",
+                              "onLookup",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "reference",
+                            "valuetype": "reference",
+                            "autocomplete": true
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430",
+                            "action": [
+                              "onEnter",
+                              "onLookup",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "reference",
+                            "valuetype": "reference",
+                            "autocomplete": true
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u041d\u043e\u043c\u0435\u0440",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u0414\u0430\u0442\u0430",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "date",
+                            "valuetype": "date",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+                            "action": [
+                              "onEnter",
+                              "onLookup",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "reference",
+                            "valuetype": "reference",
+                            "autocomplete": true
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440",
+                            "action": [
+                              "onEnter",
+                              "onLookup",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "reference",
+                            "valuetype": "reference",
+                            "autocomplete": true
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439",
+                            "action": [
+                              "onEnter"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "checkbox",
+                            "valuetype": "boolean",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u041c\u043e\u0442\u0438\u0432",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430",
+                            "action": [
+                              "onEnter"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "checkbox",
+                            "valuetype": "boolean",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u041a\u043e\u0440\u0440\u041f\u0440\u0438\u043a\u0430\u0437",
+                            "action": [
+                              "onEnter",
+                              "onLookup",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "reference",
+                            "valuetype": "reference",
+                            "autocomplete": true
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u0421\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d",
+                            "action": [
+                              "onEnter"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "checkbox",
+                            "valuetype": "boolean",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u0417\u0430\u043c\u043e\u043a",
+                            "action": [
+                              "onEnter"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "checkbox",
+                            "valuetype": "boolean",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "state": [
+        {
+          "name": "ButtonSelectItem",
+          "hidden": true
+        },
+        {
+          "name": "ButtonAddItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/AddItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonEditItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/EditItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonSaveItem",
+          "hidden": true
+        },
+        {
+          "name": "ButtonCancel",
+          "hidden": true
+        },
+        {
+          "name": "\u0421md:ReportsList",
+          "hidden": true
+        },
+        {
+          "name": "Cmd:Services",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0421\u0435\u0440\u0432\u0438\u0441\u044b",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "fashion": "Ghost",
+          "iconname": "Com/Attachment/Icons/Services.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Control/Attachment/Icons/exclamation.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f"
+        },
+        {
+          "name": "ButtonFilters",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0424\u0438\u043b\u044c\u0442\u0440\u044b",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Filters.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonHideClosed",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0422\u043e\u043b\u044c\u043a\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0435"
+        },
+        {
+          "name": "ButtonNavigationPanel",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": true,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u041f\u0430\u043d\u0435\u043b\u044c \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438"
+        },
+        {
+          "name": "ButtonHierarchicalView",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": true,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0418\u0435\u0440\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0432\u0438\u0434"
+        },
+        {
+          "name": "ButtonShowDeleted",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0423\u0434\u0430\u043b\u0435\u043d\u043d\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438"
+        },
+        {
+          "name": "FilterSeparator",
+          "hidden": false,
+          "caption": "-",
+          "disabled": false
+        },
+        {
+          "name": "ButtonNSSaveAs",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438...",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Bas/Attachment/Icons/puzzle4.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438..."
+        },
+        {
+          "name": "ButtonNSManager",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0414\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Bas/Attachment/Icons/puzzleOk.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0414\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a"
+        },
+        {
+          "name": "ButtonNSDefault",
+          "hidden": true
+        },
+        {
+          "name": "ButtonClose",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0417\u0430\u043a\u0440\u044b\u0442\u044c",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Close.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "Ctrl.IListButton10",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/angle-down.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonCloneItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0414\u0443\u0431\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/CloneItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0414\u0443\u0431\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c"
+        },
+        {
+          "name": "ButtonDeleteItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/DeleteItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c"
+        },
+        {
+          "name": "ButtonAddFolder",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0433\u0440\u0443\u043f\u043f\u0443",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/AddFolder.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0433\u0440\u0443\u043f\u043f\u0443"
+        },
+        {
+          "name": "ButtonFolderElement",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0413\u0440\u0443\u043f\u043f\u0430/\u044d\u043b\u0435\u043c\u0435\u043d\u0442",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/FolderElement.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0413\u0440\u0443\u043f\u043f\u0430/\u044d\u043b\u0435\u043c\u0435\u043d\u0442"
+        },
+        {
+          "name": "ButtonRefresh",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Refresh.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c"
+        },
+        {
+          "name": "HeaderSeparator1",
+          "hidden": false,
+          "caption": "-",
+          "disabled": false
+        },
+        {
+          "name": "ButtonHelp",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u041f\u043e\u043c\u043e\u0449\u044c",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Help.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u041f\u043e\u043c\u043e\u0449\u044c"
+        },
+        {
+          "name": "HeaderFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "backgroundColor": "inherit",
+            "paddingLeft": 8,
+            "paddingTop": 3,
+            "paddingRight": 8,
+            "paddingBottom": 3
+          },
+          "caption": "\u041f\u0440\u0438\u043a\u0430\u0437\u044b \u043e\u0431 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0438/\u043e\u0442\u043c\u0435\u043d\u0435 \u043d\u0430\u0434\u0431\u0430\u0432\u043e\u043a(\u0434\u043e\u043f\u043b\u0430\u0442)",
+          "scrollerStyle": 1,
+          "autoSize": true,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical",
+          "title": {
+            "hidden": false,
+            "disabled": false,
+            "hint": "",
+            "style": {
+              "textAlign": "left",
+              "fontSize": "18px"
+            },
+            "iconname": "",
+            "iconsize": 0,
+            "wrap": false,
+            "multiline": false,
+            "autoSize": false,
+            "readOnly": true,
+            "value": "\u041f\u0440\u0438\u043a\u0430\u0437\u044b \u043e\u0431 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0438/\u043e\u0442\u043c\u0435\u043d\u0435 \u043d\u0430\u0434\u0431\u0430\u0432\u043e\u043a(\u0434\u043e\u043f\u043b\u0430\u0442)",
+            "staticStyle": "normalText",
+            "defLabelWidth": 30,
+            "hideCloseButton": true
+          }
+        },
+        {
+          "name": "ButtonTree",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0414\u0435\u0440\u0435\u0432\u043e \u0433\u0440\u0443\u043f\u043f",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Com/Attachment/Icons/folder-tree.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonBack",
+          "hidden": false,
+          "disabled": true,
+          "hint": "\u041d\u0430\u0437\u0430\u0434",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Com/Attachment/Icons/Back.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonForward",
+          "hidden": false,
+          "disabled": true,
+          "hint": "\u0412\u043f\u0435\u0440\u0435\u0434",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Com/Attachment/Icons/Forward.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "PathEdit",
+          "hidden": false,
+          "disabled": true,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 100,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "value": "\\ ",
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": false,
+          "disableOnEdit": false
+        },
+        {
+          "name": "FilterEdit",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 80,
+            "caretColor": "black"
+          },
+          "iconsize": 0,
+          "color": "#808080",
+          "inputColor": "#000000",
+          "value": "",
+          "formattedValue": "<\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c>",
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "listValues": [
+            {
+              "value": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c = \u0414\u0430",
+              "key": "True"
+            },
+            {
+              "value": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c = \u041d\u0435\u0442",
+              "key": "False"
+            }
+          ],
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": false,
+          "disableOnEdit": false
+        },
+        {
+          "name": "FilterEdit1",
+          "hidden": true
+        },
+        {
+          "name": "FilterEdit2",
+          "hidden": true
+        },
+        {
+          "name": "ButtonFields",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Com/Attachment/Icons/Filters.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": true,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c"
+        },
+        {
+          "name": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435.Name_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435"
+        },
+        {
+          "name": "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430.Name_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0422\u0438\u043f \u043f\u0440\u0438\u043a\u0430\u0437\u0430"
+        },
+        {
+          "name": "\u041d\u043e\u043c\u0435\u0440_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u041d\u043e\u043c\u0435\u0440 \u043f\u0440\u0438\u043a\u0430\u0437\u0430"
+        },
+        {
+          "name": "\u0414\u0430\u0442\u0430_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0414\u0430\u0442\u0430 \u043f\u0440\u0438\u043a\u0430\u0437\u0430"
+        },
+        {
+          "name": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a.Name_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a"
+        },
+        {
+          "name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440.\u0422\u0430\u0431\u041d\u043e\u043c\u0435\u0440_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0422\u0430\u0431. \u043d\u043e\u043c\u0435\u0440"
+        },
+        {
+          "name": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439"
+        },
+        {
+          "name": "Locked_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "\u0417\u0430\u043c\u043e\u043a"
+        },
+        {
+          "name": "NavigatorGroup",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "backgroundColor": "inherit"
+          }
+        },
+        {
+          "name": "NavigatorFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "paddingLeft": 8,
+            "paddingTop": 6,
+            "paddingRight": 8,
+            "paddingBottom": 6,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 0,
+          "autoSize": true,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical"
+        },
+        {
+          "name": "CardTree",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 67
+          },
+          "nodes": [
+            {
+              "content": {
+                "text": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435"
+              },
+              "nodeId": "0",
+              "expansible": true,
+              "toggled": true,
+              "icon": "Com/Attachment/Icons/Cardfile.svg",
+              "isGroup": true,
+              "children": [
+                {
+                  "content": {
+                    "text": "\u041d\u0430\u0448\u0435 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435 1"
+                  },
+                  "nodeId": "52",
+                  "isGroup": true,
+                  "expansible": true,
+                  "toggled": false,
+                  "icon": "Com/Attachment/Icons/Folder.svg"
+                }
+              ]
+            }
+          ],
+          "forceUpdate": true,
+          "currentNodeId": "0",
+          "expansible": true
+        },
+        {
+          "name": "FrameCardTree",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 67,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 1,
+          "autoSize": false,
+          "isFixed": true,
+          "splitterAtRight": true,
+          "useSplitter": true,
+          "canResizeBySplit": true,
+          "canHideBySplit": false,
+          "orientation": "vertical",
+          "isSplitterOpen": true
+        },
+        {
+          "name": "DocId",
+          "hidden": true
+        },
+        {
+          "name": "ExtId",
+          "hidden": true
+        },
+        {
+          "name": "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 15,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "CreateDate",
+          "hidden": true
+        },
+        {
+          "name": "CreateUser",
+          "hidden": true
+        },
+        {
+          "name": "UpdateDate",
+          "hidden": true
+        },
+        {
+          "name": "UpdateUser",
+          "hidden": true
+        },
+        {
+          "name": "ModifyDate",
+          "hidden": true
+        },
+        {
+          "name": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 30,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": true,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 135.26316,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": true,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u041d\u043e\u043c\u0435\u0440",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 20,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u0414\u0430\u0442\u0430",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 25,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "dateOptions": {
+            "formatOfDate": "dateOnly"
+          },
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 45,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": true,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440",
+          "hidden": false,
+          "disabled": false,
+          "hint": "\u0422\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+          "style": {
+            "textAlign": "center",
+            "width": 20,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": true,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 15,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u041c\u043e\u0442\u0438\u0432",
+          "hidden": true
+        },
+        {
+          "name": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430",
+          "hidden": true
+        },
+        {
+          "name": "\u041a\u043e\u0440\u0440\u041f\u0440\u0438\u043a\u0430\u0437",
+          "hidden": true
+        },
+        {
+          "name": "\u0421\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d",
+          "hidden": true
+        },
+        {
+          "name": "\u0417\u0430\u043c\u043e\u043a",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 15,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435",
+          "hidden": true
+        },
+        {
+          "name": "CardFile",
+          "hidden": false,
+          "rowCount": "0",
+          "summary": "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0430\u043f\u0438\u0441\u0435\u0439: 0",
+          "isFirstPage": true,
+          "isLastPage": true,
+          "showHierarchyNavigation": false,
+          "isFilterActive": false,
+          "filter": "",
+          "rowsData": [],
+          "draggableColumns": {
+            "columnsReorderMode": "reorder",
+            "disableTableScroll": true
+          },
+          "columnsOrder": {
+            "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c": 0,
+            "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435": 1,
+            "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430": 2,
+            "\u041d\u043e\u043c\u0435\u0440": 3,
+            "\u0414\u0430\u0442\u0430": 4,
+            "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a": 5,
+            "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440": 6,
+            "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439": 7,
+            "\u0417\u0430\u043c\u043e\u043a": 8
+          },
+          "action": [
+            "onDblClick",
+            "onEnter",
+            "onTop",
+            "onBottom",
+            "onPgUp",
+            "onPgDn",
+            "onMove",
+            "onHeaderCtxMenu",
+            "onHeaderCtxMenuClick",
+            "hierarchyUp",
+            "onMoveRecord"
+          ],
+          "selectedRows": [],
+          "headersData": [
+            [
+              {
+                "name": "DocId",
+                "title": "DocID",
+                "hint": "",
+                "width": 20,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ExtId",
+                "title": "ExtID",
+                "hint": "",
+                "width": 25,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u041f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c",
+                "title": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c",
+                "hint": "",
+                "width": 15,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "CreateDate",
+                "title": "\u0412\u0440\u0435\u043c\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f",
+                "hint": "",
+                "width": 35,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "CreateUser",
+                "title": "\u0421\u043e\u0437\u0434\u0430\u043b",
+                "hint": "",
+                "width": 30,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "UpdateDate",
+                "title": "\u0412\u0440\u0435\u043c\u044f \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
+                "hint": "",
+                "width": 35,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "UpdateUser",
+                "title": "\u0418\u0437\u043c\u0435\u043d\u0438\u043b",
+                "hint": "",
+                "width": 30,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ModifyDate",
+                "title": "\u0412\u0440\u0435\u043c\u044f \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438",
+                "hint": "",
+                "width": 35,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435",
+                "title": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435",
+                "hint": "",
+                "width": 30,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u0422\u0438\u043f\u041f\u0440\u0438\u043a\u0430\u0437\u0430",
+                "title": "\u0422\u0438\u043f \u043f\u0440\u0438\u043a\u0430\u0437\u0430",
+                "hint": "",
+                "width": 135.26316,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u041d\u043e\u043c\u0435\u0440",
+                "title": "\u041d\u043e\u043c\u0435\u0440 \u043f\u0440\u0438\u043a\u0430\u0437\u0430",
+                "hint": "",
+                "width": 20,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u0414\u0430\u0442\u0430",
+                "title": "\u0414\u0430\u0442\u0430 \u043f\u0440\u0438\u043a\u0430\u0437\u0430",
+                "hint": "",
+                "width": 25,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+                "title": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+                "hint": "",
+                "width": 45,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u0422\u0440\u0443\u0434\u0430\u0421\u043e\u0442\u0440",
+                "title": "\u0422\u0430\u0431. \u043d\u043e\u043c\u0435\u0440",
+                "hint": "\u0422\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+                "width": 20,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439",
+                "title": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439",
+                "hint": "",
+                "width": 15,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u041c\u043e\u0442\u0438\u0432",
+                "title": "\u041c\u043e\u0442\u0438\u0432",
+                "hint": "\u041c\u043e\u0442\u0438\u0432 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f/\u043e\u0442\u043c\u0435\u043d\u044b \u043d\u0430\u0434\u0431\u0430\u0432\u043e\u043a",
+                "width": 40,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false
+              },
+              {
+                "name": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430",
+                "title": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430",
+                "hint": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u043f\u0440\u0438\u043a\u0430\u0437\u0430",
+                "width": 15,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u041a\u043e\u0440\u0440\u041f\u0440\u0438\u043a\u0430\u0437",
+                "title": "\u041a\u043e\u0440\u0440. \u043f\u0440\u0438\u043a\u0430\u0437",
+                "hint": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u0443\u0435\u043c\u044b\u0439 \u043f\u0440\u0438\u043a\u0430\u0437",
+                "width": 25,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u0421\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d",
+                "title": "\u0421\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d",
+                "hint": "\u041f\u0440\u0438\u043a\u0430\u0437 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043e\u0442\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d",
+                "width": 15,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u0417\u0430\u043c\u043e\u043a",
+                "title": "\u0417\u0430\u043c\u043e\u043a",
+                "hint": "",
+                "width": 15,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435",
+                "title": "\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435",
+                "hint": "\u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u044f, \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+                "width": 40,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false
+              }
+            ]
+          ],
+          "inplaceEditEnabled": false,
+          "showIcon": true,
+          "showCount": true
+        },
+        {
+          "name": "FrameCardFile",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 1,
+          "autoSize": false,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical"
+        },
+        {
+          "name": "MainFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 0,
+          "autoSize": false,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "horizontal"
+        },
+        {
+          "name": "RootFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 0,
+          "autoSize": false,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical"
+        }
+      ]
+    }
+  ],
+  "interval": "10",
+  "app": {
+    "appCaption": "\u0417\u0430\u0440\u043f\u043b\u0430\u0442\u0430 \u0438 \u041a\u0430\u0434\u0440\u044b - \u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0431\u0430\u0437\u0430: ERP_\u043a\u0430\u0434\u0440\u044b - [\u041f\u0440\u0438\u043a\u0430\u0437\u044b \u043e\u0431 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0438/\u043e\u0442\u043c\u0435\u043d\u0435 \u043d\u0430\u0434\u0431\u0430\u0432\u043e\u043a(\u0434\u043e\u043f\u043b\u0430\u0442)]"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "formId": "#{formId}",
+  "formName": "Информация",
+  "state": {},
+  "controlId": "Button1",
+  "action": "onClick"
+}

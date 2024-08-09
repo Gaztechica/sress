@@ -1,0 +1,5 @@
+{
+  "username":"#{login}",
+  "password":"",
+  "sso": false
+}
