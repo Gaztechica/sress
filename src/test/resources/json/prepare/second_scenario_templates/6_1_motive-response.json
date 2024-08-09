@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "refresh",
+        "formName": "Уст.надбавок №00005 от 31.07.2024",
+        "formId": "232",
+        "formIcon": "Com/Attachment/Icons/Form.svg",
+        "fixed": false,
+        "autoLock": false
+      },
+      "state": [
+        {
+          "name": "Мотив",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Мотив установления/отмены надбавок",
+          "style": {
+            "textAlign": "left",
+            "width": 60,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "value": "мотив",
+          "wrap": true,
+          "multiline": true,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        }
+      ]
+    }
+  ],
+  "interval": "10"
+}

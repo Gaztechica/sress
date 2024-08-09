@@ -1,0 +1,195 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "refresh",
+        "formName": "Условия труда сотрудников",
+        "formId": "236",
+        "formIcon": "Com/Attachment/Icons/Cardfile.svg",
+        "fixed": false
+      },
+      "state": [
+        {
+          "name": "CardFile",
+          "hidden": false,
+          "currentRowId": "5",
+          "isDifferenceUpdate": true,
+          "rowsData": [
+            {
+              "rowId": "5",
+              "isGroup": false,
+              "icon": {
+                "name": "Com/Attachment/Icons/Blank.svg"
+              },
+              "DocId": {
+                "value": 5,
+                "style": {
+                  "textAlign": "center",
+                  "width": 20,
+                  "caretColor": "black"
+                }
+              },
+              "ExtId": {
+                "value": "PJ1IH3DJM32ANR",
+                "style": {
+                  "textAlign": "left",
+                  "width": 25,
+                  "caretColor": "black"
+                }
+              },
+              "CreateDate": {
+                "value": "26.07.2024 12:09:45",
+                "formattedValue": "26.07.2024 12:09:45",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "CreateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateDate": {
+                "value": "26.07.2024 12:09:45",
+                "formattedValue": "26.07.2024 12:09:45",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "ModifyDate": {
+                "value": "26.07.2024 12:09:45",
+                "formattedValue": "26.07.2024 12:09:45",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "Code": {
+                "value": "Ю.00001Физлицо.47",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "EmplNumber": {
+                "value": "Физлицо.47",
+                "style": {
+                  "textAlign": "left",
+                  "width": 59.73684,
+                  "caretColor": "black"
+                }
+              },
+              "Person": {
+                "value": "Физлицо 0000047",
+                "style": {
+                  "textAlign": "left",
+                  "width": 60,
+                  "caretColor": "black"
+                }
+              },
+              "Company": {
+                "value": "Наше предприятие 1",
+                "style": {
+                  "textAlign": "left",
+                  "width": 40,
+                  "caretColor": "black"
+                }
+              },
+              "Division": {
+                "value": "Подразделение 01",
+                "style": {
+                  "textAlign": "left",
+                  "width": 40,
+                  "caretColor": "black"
+                }
+              },
+              "Position": {
+                "value": "Должность0000032",
+                "style": {
+                  "textAlign": "left",
+                  "width": 40,
+                  "caretColor": "black"
+                }
+              },
+              "Разряд": {
+                "value": null,
+                "style": {
+                  "textAlign": "left",
+                  "width": 40,
+                  "caretColor": "black"
+                }
+              },
+              "HireDate": {
+                "value": "01.01.2024",
+                "formattedValue": "01.01.2024",
+                "style": {
+                  "textAlign": "center",
+                  "width": 25,
+                  "caretColor": "black"
+                }
+              },
+              "FireDate": {
+                "value": "",
+                "formattedValue": "",
+                "style": {
+                  "textAlign": "center",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "ТрудДоговор": {
+                "value": null,
+                "style": {
+                  "textAlign": "left",
+                  "width": 40,
+                  "caretColor": "black"
+                }
+              },
+              "ВидДоговораУТС": {
+                "value": 1,
+                "style": {
+                  "textAlign": "left",
+                  "width": 40,
+                  "caretColor": "black"
+                }
+              },
+              "ДатаНачалаЭТК": {
+                "value": "",
+                "formattedValue": "",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              }
+            }
+          ],
+          "selectedRows": [
+            "6"
+          ],
+          "inplaceEditEnabled": false,
+          "showIcon": true,
+          "showCount": true
+        }
+      ]
+    }
+  ],
+  "interval": "10"
+}

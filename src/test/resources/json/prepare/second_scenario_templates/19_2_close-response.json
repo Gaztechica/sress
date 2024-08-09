@@ -1,0 +1,15 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "close",
+        "formName": "Уст.надбавок №00005 от 31.07.2024",
+        "formId": "232",
+        "formIcon": "Com/Attachment/Icons/Form.svg",
+        "fixed": false,
+        "autoLock": true
+      }
+    }
+  ],
+  "interval": "10"
+}
