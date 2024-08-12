@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c45a9353-4193-4080-8710-de00fa842009" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/json/prepare/login.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/property/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/property/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/scenario/mvdScenarios/LoginCalculationLogoutZUPScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/scenario/mvdScenarios/LoginCalculationLogoutZUPScenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/simulation/ScenarioPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/simulation/ScenarioPlatform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/step/mvd/zup/ClickButtonCalculationForJanuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/step/mvd/zup/ClickButtonCalculationForJanuary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/step/prepare/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/step/prepare/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/login/loginAndPassword.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/csv/login/loginAndPassword.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723193736318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1723447371621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723447371622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
