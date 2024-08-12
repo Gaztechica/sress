@@ -12,9 +12,9 @@ import static java.time.Duration.ofSeconds;
 public class ScenarioPlatform extends Simulation {
 
     // Время для входа юзеров
-    public static final int TIME_TO_LOGIN = 100; // секунд - время запуска
+    public static final int TIME_TO_LOGIN = 10; // секунд - время запуска
 
-    public static final int LOGIN_USER_COUNT = 10; // количество пользователей
+    public static final int LOGIN_USER_COUNT = 1; // количество пользователей
 
     ScenarioBuilder firstScenarioBuilder =
             scenario("1. ").

@@ -17,8 +17,8 @@ import static ru.cbgr.qa.stress.mvd.simulation.ScenarioPlatform.LOGIN_USER_COUNT
 public class LoginCalculationLogoutZUPScenario {
 
     public static ChainBuilder loginCalculationLogoutZUPChain =
-            group("Расчет начислений по сотрудникам ").on(
-                            feed(csv("csv/login/loginSingle15000.csv")).
+            group("loginAndPassword").on(
+                    feed(csv("csv/login/loginAndPassword.csv")).
                                     group("Логин в систему").on(
                                             exec(LoginStep.loginAndOpenMainPageZUP))
                     )

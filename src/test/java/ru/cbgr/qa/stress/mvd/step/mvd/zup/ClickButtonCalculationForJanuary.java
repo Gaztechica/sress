@@ -17,9 +17,9 @@ public class ClickButtonCalculationForJanuary {
 
     public static ChainBuilder clickButtonCalculationForJanuaryChainZUP =
             group("Шаги").on(
-                    exec(http("Расчет")
-                            .post("/api/xcom/view/sendAction").asJson()
-                            .body(ElFileBody("json/prepare/сlickButtonCalculationForJanuaryZUP.json")).asJson()
+                    exec(http("login")
+                            .post("/account/login").asJson()
+                            .body(ElFileBody("json/prepare/login.json")).asJson()
                             .header("Sessionid", "#{sessionId}")
                             .check(status().is(200))
                             .check(jsonPath("$.result[0].resultAction.formId").saveAs("formId"))
