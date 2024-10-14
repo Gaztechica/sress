@@ -1,0 +1,14 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "closeRequest",
+        "formName": "\u0422\u0438\u043f\u044b \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432",
+        "formId": "235",
+        "formIcon": "Com/Attachment/Icons/Cardfile.svg",
+        "fixed": false
+      }
+    }
+  ],
+  "interval": "7.92760170390829"
+}

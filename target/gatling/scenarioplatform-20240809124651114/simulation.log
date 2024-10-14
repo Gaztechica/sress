@@ -1,0 +1,5 @@
+RUN	ru.cbgr.qa.stress.mvd.simulation.ScenarioPlatform	scenarioplatform	1723207611114	Нагрузочное тестирование решения ТОРО	3.8.2
+USER	1.	START	1723207612265
+REQUEST	Расчет начислений по сотрудникам ,Логин в систему	Логин	1723207612396	1723207612456	KO	status.find.is(200), but actually found 405
+REQUEST	Расчет начислений по сотрудникам ,Логин в систему	Логин - установить роль	1723207612490	1723207612516	KO	status.find.is(200), but actually found 405
+USER	1.	START	1723207617251

@@ -1,0 +1,7 @@
+{
+  "formId": "#{formId}",
+  "formName": "\u0422\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0440\u0430\u0441\u0447\u0435\u0442",
+  "state": {},
+  "controlId": "Command202501",
+  "action": "onClick"
+}

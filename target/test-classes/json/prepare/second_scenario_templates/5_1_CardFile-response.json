@@ -1,0 +1,141 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "refresh",
+        "formName": "Типы документов",
+        "formId": "235",
+        "formIcon": "Com/Attachment/Icons/Cardfile.svg",
+        "fixed": false
+      },
+      "state": [
+        {
+          "name": "CardFile",
+          "hidden": false,
+          "currentRowId": "16",
+          "isDifferenceUpdate": true,
+          "rowsData": [
+            {
+              "rowId": "16",
+              "isGroup": false,
+              "icon": {
+                "name": "Com/Attachment/Icons/Blank.svg"
+              },
+              "DocId": {
+                "value": 16,
+                "style": {
+                  "textAlign": "center",
+                  "width": 20,
+                  "caretColor": "black"
+                }
+              },
+              "ExtId": {
+                "value": "PJ1IH3CL60PPRV",
+                "style": {
+                  "textAlign": "left",
+                  "width": 25,
+                  "caretColor": "black"
+                }
+              },
+              "Code": {
+                "value": "009",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "Name": {
+                "value": "Приказ (распоряжение) об установлении надбавок (доплат) работникам",
+                "style": {
+                  "textAlign": "left",
+                  "width": 223.15789,
+                  "caretColor": "black"
+                }
+              },
+              "CreateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "CreateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "ModifyDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "ОКУД": {
+                "value": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "Групповой": {
+                "value": true,
+                "style": {
+                  "textAlign": "center",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "КадровыйДокумент": {
+                "value": 2,
+                "style": {
+                  "textAlign": "left",
+                  "width": 100,
+                  "caretColor": "black"
+                }
+              },
+              "Предприятие": {
+                "value": null,
+                "style": {
+                  "textAlign": "left",
+                  "width": 50,
+                  "caretColor": "black"
+                }
+              }
+            }
+          ],
+          "inplaceEditEnabled": false,
+          "showIcon": true,
+          "showCount": true
+        }
+      ]
+    }
+  ],
+  "interval": "8.26853397290688"
+}

@@ -1,0 +1,1017 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "refresh",
+        "formName": "Уст.надбавок №00005 от 31.07.2024",
+        "formId": "232",
+        "formIcon": "Com/Attachment/Icons/Form.svg",
+        "fixed": false,
+        "autoLock": false
+      },
+      "state": [
+        {
+          "name": "тблПозиции",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left"
+          },
+          "isFlexible": false,
+          "elements": [
+            {
+              "name": "Cmd2.IItem162",
+              "disabled": false,
+              "caption": "Закрыть",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/Close.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.ISeparator163",
+              "type": "separator",
+              "caption": "",
+              "collapsible": false
+            },
+            {
+              "name": "Cmd2.IItem164",
+              "disabled": false,
+              "caption": "Копировать",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/CopyValue.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.IItem165",
+              "disabled": false,
+              "caption": "Вырезать",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/CutValue.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.IItem166",
+              "disabled": false,
+              "caption": "Вставить",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/PasteValue.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.IItem167",
+              "disabled": false,
+              "caption": "Удалить",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/DeleteValue.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.ISeparator168",
+              "type": "separator",
+              "caption": "",
+              "collapsible": false
+            },
+            {
+              "name": "Cmd2.IItem169",
+              "disabled": false,
+              "caption": "Добавить кадр",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/InsertObj.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.IItem170",
+              "disabled": false,
+              "caption": "Удалить кадр",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/DeleteObj.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.IItem171",
+              "disabled": false,
+              "caption": "Кадр вверх",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/PageUp.svg",
+              "hidden": false,
+              "collapsible": true
+            },
+            {
+              "name": "Cmd2.IItem172",
+              "disabled": false,
+              "caption": "Кадр вниз",
+              "hint": "",
+              "iconname": "Com/Attachment/Icons/PageDown.svg",
+              "hidden": false,
+              "collapsible": true
+            }
+          ],
+          "rowCount": "2",
+          "currentRowId": 1,
+          "isFirstPage": true,
+          "isLastPage": true,
+          "rowsData": [
+            {
+              "rowIndex": "1",
+              "rowId": "1",
+              "УсловияТрудаСотр": {
+                "name": "УсловияТрудаСотр",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Сотрудник",
+                "style": {
+                  "textAlign": "left",
+                  "width": 35,
+                  "caretColor": "black"
+                },
+                "iconsize": 0,
+                "wrap": true,
+                "multiline": true,
+                "autoSize": false,
+                "readOnly": false,
+                "required": true,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": true,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "color": "black",
+                "inputColor": "#000000",
+                "value": "Фам0000046 Имя",
+                "formattedValue": "Фам0000046 Имя"
+              },
+              "ТабНомер": {
+                "name": "ТабНомер",
+                "hidden": false,
+                "disabled": true,
+                "hint": "Табельный номер сотрудника",
+                "style": {
+                  "textAlign": "center",
+                  "width": 20,
+                  "caretColor": "black"
+                },
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": true,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "color": "black",
+                "inputColor": "#000000",
+                "value": "Физлицо.46"
+              },
+              "кнТабНомер": {
+                "name": "кнТабНомер",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Переход на форму",
+                "style": {
+                  "textAlign": "center",
+                  "width": 7.2
+                },
+                "iconname": "Com/Attachment/Icons/JumpButton.svg",
+                "iconsize": 16,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "caption": ""
+              },
+              "НазначениеОткуда": {
+                "name": "НазначениеОткуда",
+                "hidden": false,
+                "disabled": true,
+                "hint": "Подразделение, должность, разряд сотрудника",
+                "style": {
+                  "textAlign": "left",
+                  "width": 40,
+                  "caretColor": "black"
+                },
+                "iconsize": 0,
+                "wrap": true,
+                "multiline": true,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": false,
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "color": "black",
+                "inputColor": "#000000",
+                "value": "Подразделение 01 Должность0000032"
+              },
+              "ПериодРаботы": {
+                "name": "ПериодРаботы",
+                "hidden": false,
+                "disabled": true,
+                "hint": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 24,
+                  "caretColor": "black"
+                },
+                "iconsize": 0,
+                "wrap": true,
+                "multiline": true,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": true,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "color": "black",
+                "inputColor": "#000000",
+                "value": "01.01.2024",
+                "formattedValue": "01.01.2024"
+              },
+              "НаимНадбавки": {
+                "name": "НаимНадбавки",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Наименование устанавливаемой надбавки/доплаты",
+                "style": {
+                  "textAlign": "left",
+                  "width": 50,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": true,
+                "multiline": true,
+                "autoSize": false,
+                "readOnly": false,
+                "required": true,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": true,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": null
+              },
+              "ДатаНачалаНадб": {
+                "name": "ДатаНачалаНадб",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Дата начала начисления устанавливаемой надбавки/доплаты",
+                "style": {
+                  "textAlign": "center",
+                  "width": 27,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "dateOptions": {
+                  "formatOfDate": "dateOnly"
+                },
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": "31.07.2024 00:00:00.000",
+                "formattedValue": "31.07.2024"
+              },
+              "ДатаОкончанияНадб": {
+                "name": "ДатаОкончанияНадб",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Дата окончания начисления  надбавки/доплаты",
+                "style": {
+                  "textAlign": "center",
+                  "width": 27,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "dateOptions": {
+                  "formatOfDate": "dateOnly"
+                },
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": "",
+                "formattedValue": ""
+              },
+              "СтавкаНадбавки": {
+                "name": "СтавкаНадбавки",
+                "hidden": false,
+                "disabled": false,
+                "hint": "",
+                "style": {
+                  "textAlign": "right",
+                  "width": 20,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": false,
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": 0,
+                "formattedValue": "-"
+              },
+              "СуммаНадбавки": {
+                "name": "СуммаНадбавки",
+                "hidden": false,
+                "disabled": false,
+                "hint": "",
+                "style": {
+                  "textAlign": "right",
+                  "width": 30,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": false,
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": 0,
+                "formattedValue": "-"
+              },
+              "Периодичность": {
+                "name": "Периодичность",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Периодичность начисления установленной надбавки/доплаты",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": true,
+                "multiline": true,
+                "autoSize": false,
+                "readOnly": false,
+                "listValues": [
+                  {
+                    "value": "Ежемесячно",
+                    "key": 0
+                  },
+                  {
+                    "value": "Единовременно",
+                    "key": 1
+                  }
+                ],
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": 0
+              },
+              "УсловиеРасчета": {
+                "name": "УсловиеРасчета",
+                "hidden": false,
+                "disabled": false,
+                "hint": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": true,
+                "multiline": true,
+                "autoSize": false,
+                "readOnly": false,
+                "listValues": [
+                  {
+                    "value": "При расчете за половину или за полный месяц",
+                    "key": 0
+                  },
+                  {
+                    "value": "Только при расчете первой половины месяца",
+                    "key": 1
+                  },
+                  {
+                    "value": "Только при расчете за месяц",
+                    "key": 2
+                  },
+                  {
+                    "value": "Только при расчете на дату",
+                    "key": 4
+                  },
+                  {
+                    "value": "Всегда",
+                    "key": 3
+                  }
+                ],
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": 0
+              },
+              "ВнутрСовмещение": {
+                "name": "ВнутрСовмещение",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Данная надбавка/доплата установлена сотруднику за внутреннее совмещение",
+                "style": {
+                  "textAlign": "center",
+                  "width": 15,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": false,
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": false
+              },
+              "ВакансияВнСовм": {
+                "name": "ВакансияВнСовм",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Должность, по которой сотруднику оформляется внутреннее совмещение",
+                "style": {
+                  "textAlign": "left",
+                  "width": 35,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": true,
+                "multiline": true,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": true,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": null,
+                "formattedValue": ""
+              },
+              "НачислениеВнСовм": {
+                "name": "НачислениеВнСовм",
+                "hidden": false,
+                "disabled": false,
+                "hint": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": true,
+                "buttonStyle": "default",
+                "shortlist": false,
+                "autocomplete": true,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": null
+              },
+              "СтавкаВнСовмещение": {
+                "name": "СтавкаВнСовмещение",
+                "hidden": false,
+                "disabled": false,
+                "hint": "Размер оклада/тарифа совмещаемой должности. Заполняется только в случае установки надбавки за совмещение в процентах от оклада по совмещаемой должности",
+                "style": {
+                  "textAlign": "right",
+                  "width": 30,
+                  "maxWidth": 35,
+                  "caretColor": "black"
+                },
+                "iconname": "",
+                "iconsize": 0,
+                "wrap": false,
+                "multiline": false,
+                "autoSize": false,
+                "readOnly": false,
+                "required": false,
+                "showReferenceButton": false,
+                "shortlist": false,
+                "autocomplete": false,
+                "autoLock": true,
+                "disableOnEdit": false,
+                "value": 0,
+                "formattedValue": "-"
+              }
+            }
+          ],
+          "headersData": [
+            [
+              {
+                "name": "тблПозиции_rowIndex",
+                "disabled": true,
+                "rowspan": 2,
+                "width": 10,
+                "isFixed": true
+              },
+              {
+                "name": "грСотрудник",
+                "title": "Сотрудник",
+                "hint": "",
+                "width": 161.2,
+                "hidden": false,
+                "colspan": 3,
+                "rowspan": 2,
+                "style": {
+                  "textAlign": "center",
+                  "width": 161.2
+                },
+                "staticStyle": "normalText"
+              },
+              {
+                "name": "НаимНадбавки",
+                "title": "Наименование надбавки/доплаты ",
+                "hint": "Наименование устанавливаемой надбавки/доплаты",
+                "width": 50,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ОтменяемаяНадбавка",
+                "title": "Наименование надбавки/доплаты ",
+                "hint": "Наименование отменяемой надбавки/доплаты",
+                "width": 60,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ДатаНачалаНадб",
+                "title": "Дата начала начисления",
+                "hint": "Дата начала начисления устанавливаемой надбавки/доплаты",
+                "width": 27,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ДатаНачалаНадбОтмена",
+                "title": "Дата начала начисления",
+                "hint": "Дата начала начисления отменяемой надбавки/доплаты",
+                "width": 27,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ДатаОкончанияНадб",
+                "title": "Дата окончания начисления",
+                "hint": "Дата окончания начисления  надбавки/доплаты",
+                "width": 27,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "грНадбавкиУстРазмер",
+                "title": "Размер надбавки/доплаты ",
+                "hint": "",
+                "width": 50,
+                "hidden": false,
+                "colspan": 2,
+                "rowspan": 2,
+                "style": {
+                  "textAlign": "center",
+                  "width": 50
+                },
+                "staticStyle": "normalText"
+              },
+              {
+                "name": "Периодичность",
+                "title": "Периодичность",
+                "hint": "Периодичность начисления установленной надбавки/доплаты",
+                "width": 30,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "УсловиеРасчета",
+                "title": "Условие попадания в расчет",
+                "hint": "",
+                "width": 30,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "грВнСовмещение",
+                "title": "Внутреннее совмещение",
+                "hint": "",
+                "width": 155,
+                "hidden": false,
+                "colspan": 3,
+                "rowspan": 2,
+                "style": {
+                  "textAlign": "center",
+                  "width": 155
+                },
+                "staticStyle": "normalText"
+              },
+              {
+                "name": "ПриказУстНадбавки",
+                "title": "Приказ о назначении",
+                "hint": "Приказ, на основании которого было установлено начисление",
+                "width": 50,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 2,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "грКорректирующийПриказ",
+                "title": "Корректирующий приказ",
+                "hint": "",
+                "width": 34.2,
+                "hidden": true,
+                "colspan": 0,
+                "rowspan": 2,
+                "style": {
+                  "textAlign": "center",
+                  "width": 34.2
+                },
+                "staticStyle": "normalText"
+              }
+            ],
+            [
+              {
+                "name": "Сотрудник",
+                "title": "ФИО",
+                "hint": "ФИО сотрудника",
+                "width": 35,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "УсловияТрудаСотр",
+                "title": "ФИО",
+                "hint": "Сотрудник",
+                "width": 35,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "грТабНомер",
+                "title": "таб. номер",
+                "hint": "",
+                "width": 27.2,
+                "hidden": false,
+                "colspan": 2,
+                "rowspan": 1,
+                "style": {
+                  "textAlign": "center",
+                  "width": 27.2
+                },
+                "staticStyle": "normalText"
+              },
+              {
+                "name": "НазначениеОткуда",
+                "title": "подразделение, должность, разряд",
+                "hint": "Подразделение, должность, разряд сотрудника",
+                "width": 40,
+                "disabled": true,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ПериодРаботы",
+                "title": "период назначения (с,по)",
+                "hint": "",
+                "width": 24,
+                "disabled": true,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "СтавкаНадбавки",
+                "title": "ставка",
+                "hint": "",
+                "width": 20,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "СуммаНадбавки",
+                "title": "сумма (руб.)",
+                "hint": "",
+                "width": 30,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ВнутрСовмещение",
+                "title": "вн. совм.",
+                "hint": "Данная надбавка/доплата установлена сотруднику за внутреннее совмещение",
+                "width": 15,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ДолжностьВнСовм",
+                "title": "должность",
+                "hint": "Должность, по которой сотруднику оформляется внутреннее совмещение",
+                "width": 45,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ВакансияВнСовм",
+                "title": "должность",
+                "hint": "Должность, по которой сотруднику оформляется внутреннее совмещение",
+                "width": 35,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "грСтавкаВнСовмещение",
+                "title": "оклад /тариф",
+                "hint": "",
+                "width": 60,
+                "hidden": false,
+                "colspan": 2,
+                "rowspan": 1,
+                "style": {
+                  "textAlign": "center",
+                  "width": 60
+                },
+                "staticStyle": "normalText"
+              },
+              {
+                "name": "КорректирующийПриказ",
+                "title": "",
+                "hint": "",
+                "width": 27,
+                "invisibleBorders": true,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "кнКорректирующийПриказ",
+                "title": "",
+                "hint": "",
+                "width": 7.2,
+                "isFixed": true,
+                "invisibleBorders": true,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "sortDir": "none"
+              }
+            ],
+            [
+              {
+                "name": "ТабНомер",
+                "title": "",
+                "hint": "",
+                "width": 20,
+                "invisibleBorders": true,
+                "disabled": true,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 0,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "кнТабНомер",
+                "title": "",
+                "hint": "",
+                "width": 7.2,
+                "isFixed": true,
+                "invisibleBorders": true,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 0,
+                "sortDir": "none"
+              },
+              {
+                "name": "НачислениеВнСовм",
+                "title": "",
+                "hint": "",
+                "width": 30,
+                "invisibleBorders": true,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 0,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "СтавкаВнСовмещение",
+                "title": "",
+                "hint": "",
+                "width": 30,
+                "invisibleBorders": true,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 0,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              }
+            ]
+          ],
+          "hasCaption": true,
+          "freezed": true,
+          "isDifferenceUpdate": true
+        }
+      ]
+    }
+  ],
+  "interval": "10"
+}

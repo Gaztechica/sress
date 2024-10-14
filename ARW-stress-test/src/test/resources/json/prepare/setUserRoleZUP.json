@@ -1,0 +1,5 @@
+{
+  "username": "#{login}",
+  "role": "StressTest",
+  "forceLogin": true
+}

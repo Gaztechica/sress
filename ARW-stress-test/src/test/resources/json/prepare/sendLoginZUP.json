@@ -1,0 +1,6 @@
+{
+  "username":"#{login}",
+  "sso": false,
+  "obf": false,
+  "forceLogin": true
+}

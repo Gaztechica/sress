@@ -1,0 +1,4 @@
+{
+  "roleName": "StressTest",
+  "userName": "#{login}"
+}

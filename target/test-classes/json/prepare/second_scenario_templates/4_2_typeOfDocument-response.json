@@ -1,0 +1,2851 @@
+{
+  "result": [
+    {
+      "resultAction": {
+        "action": "open",
+        "openMode": "default",
+        "isActive": true,
+        "referrerFormId": "232",
+        "formName": "Типы документов",
+        "formId": "235",
+        "formIcon": "Com/Attachment/Icons/Cardfile.svg",
+        "fixed": false
+      },
+      "view": {
+        "name": "RootFrame",
+        "caption": "",
+        "type": "frame",
+        "orientation": "vertical",
+        "elements": [
+          {
+            "type": "frame",
+            "elements": [
+              {
+                "type": "menuBar",
+                "menuStyle": "popup",
+                "name": "HeaderFrame",
+                "elements": [
+                  {
+                    "name": "ButtonSelectItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/SelectItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": "Выбрать"
+                  },
+                  {
+                    "name": "Ctrl.IButton68",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Admin.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonAddItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/AddItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonEditItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/EditItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonSaveItem",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/SaveItem.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonCancel",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Cancel.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "Сmd:ReportsList",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/ReportsList.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": []
+                  },
+                  {
+                    "name": "Cmd:Services",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Services.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "Создать правило генерации уведомления",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Control/Attachment/Icons/exclamation.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Создать правило генерации уведомления"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ButtonFilters",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Filters.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "ButtonHideClosed",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Только действующие"
+                      },
+                      {
+                        "name": "ButtonNavigationPanel",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Панель навигации"
+                      },
+                      {
+                        "name": "ButtonHierarchicalView",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Иерархический вид"
+                      },
+                      {
+                        "name": "ButtonShowDeleted",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Удаленные записи"
+                      },
+                      {
+                        "name": "FilterSeparator",
+                        "type": "separator"
+                      },
+                      {
+                        "name": "ButtonNSSaveAs",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Bas/Attachment/Icons/puzzle4.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Сохранить настройки..."
+                      },
+                      {
+                        "name": "ButtonNSManager",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Bas/Attachment/Icons/puzzleOk.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Диспетчер настроек"
+                      },
+                      {
+                        "name": "ButtonNSDefault",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Bas/Attachment/Icons/puzzleLock.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "<По умолчанию>"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ButtonClose",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Close.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "Ctrl.IListButton10",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/angle-down.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "ButtonCloneItem",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/CloneItem.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Дублировать"
+                      },
+                      {
+                        "name": "ButtonDeleteItem",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/DeleteItem.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Удалить"
+                      },
+                      {
+                        "name": "ButtonAddFolder",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/AddFolder.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Добавить группу"
+                      },
+                      {
+                        "name": "ButtonFolderElement",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/FolderElement.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Группа/элемент"
+                      },
+                      {
+                        "name": "ButtonRefresh",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/Refresh.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Обновить"
+                      },
+                      {
+                        "name": "HeaderSeparator1",
+                        "type": "separator"
+                      },
+                      {
+                        "name": "ButtonHelp",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "Com/Attachment/Icons/Help.svg",
+                        "iconsize": 16,
+                        "type": "button",
+                        "caption": "Помощь"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "name": "HeaderFrame_wrap",
+            "autoSize": true
+          },
+          {
+            "name": "NavigatorFrame",
+            "caption": "",
+            "type": "frame",
+            "orientation": "vertical",
+            "elements": [
+              {
+                "name": "NavigatorGroup",
+                "type": "group",
+                "elements": [
+                  {
+                    "name": "ButtonTree",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/folder-tree.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonBack",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Back.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "ButtonForward",
+                    "action": [
+                      "onClick"
+                    ],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Forward.svg",
+                    "iconsize": 16,
+                    "type": "button",
+                    "caption": ""
+                  },
+                  {
+                    "name": "PathEdit",
+                    "action": [
+                      "onEnter",
+                      "onEdit"
+                    ],
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "string",
+                    "valuetype": "string",
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "FilterEdit",
+                    "action": [
+                      "onEnter",
+                      "onEdit"
+                    ],
+                    "isFixed": true,
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "string",
+                    "valuetype": "string",
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "FilterEdit1",
+                    "action": [
+                      "onEnter",
+                      "onEdit"
+                    ],
+                    "isFixed": true,
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "string",
+                    "valuetype": "string",
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "FilterEdit2",
+                    "action": [
+                      "onEnter",
+                      "onEdit"
+                    ],
+                    "isFixed": true,
+                    "iconname": "",
+                    "iconsize": 0,
+                    "type": "string",
+                    "valuetype": "string",
+                    "autocomplete": false
+                  },
+                  {
+                    "name": "ButtonFields",
+                    "action": [],
+                    "isFixed": true,
+                    "iconname": "Com/Attachment/Icons/Filters.svg",
+                    "iconsize": 16,
+                    "type": "listButton",
+                    "caption": "",
+                    "elements": [
+                      {
+                        "name": "Code_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Код"
+                      },
+                      {
+                        "name": "Name_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Наименование"
+                      },
+                      {
+                        "name": "ОКУД_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Код по ОКУД"
+                      },
+                      {
+                        "name": "Групповой_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Групповой"
+                      },
+                      {
+                        "name": "КадровыйДокумент_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Кадровый документ"
+                      },
+                      {
+                        "name": "Предприятие.Name_FieldBut",
+                        "action": [
+                          "onClick"
+                        ],
+                        "isFixed": true,
+                        "iconname": "",
+                        "iconsize": 0,
+                        "type": "button",
+                        "caption": "Предприятие"
+                      }
+                    ]
+                  }
+                ],
+                "behavior": "horizontal",
+                "isFlexible": true
+              }
+            ]
+          },
+          {
+            "name": "MainFrame",
+            "caption": "",
+            "type": "frame",
+            "orientation": "horizontal",
+            "elements": [
+              {
+                "name": "FrameCardTree",
+                "caption": "",
+                "type": "frame",
+                "orientation": "vertical",
+                "isFixed": true,
+                "elements": [
+                  {
+                    "name": "CardTree",
+                    "action": [
+                      "onExpand",
+                      "onChange",
+                      "onDblClick",
+                      "onMoveRecord"
+                    ],
+                    "type": "tree"
+                  }
+                ]
+              },
+              {
+                "name": "FrameCardFile",
+                "caption": "",
+                "type": "frame",
+                "orientation": "vertical",
+                "elements": [
+                  {
+                    "name": "CardFile",
+                    "type": "table",
+                    "isFlexible": true,
+                    "isIssueList": true,
+                    "showScroll": true,
+                    "showIconColumn": true,
+                    "showSelectColumn": true,
+                    "showFilter": false,
+                    "filter": "",
+                    "isFilterActive": false,
+                    "elements": [
+                      {
+                        "name": "Cmd2.IItem76",
+                        "disabled": false,
+                        "caption": "Закрыть",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/Close.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.ISeparator77",
+                        "type": "separator",
+                        "caption": "",
+                        "collapsible": false
+                      },
+                      {
+                        "name": "Cmd2.IItem78",
+                        "disabled": false,
+                        "caption": "Редактировать",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/EditItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem79",
+                        "disabled": false,
+                        "caption": "Добавить",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/AddItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem80",
+                        "disabled": false,
+                        "caption": "Добавить группу",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/AddFolder.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem81",
+                        "disabled": false,
+                        "caption": "Дублировать",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/CloneItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem82",
+                        "disabled": false,
+                        "caption": "Удалить",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/DeleteItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem83",
+                        "disabled": false,
+                        "caption": "Восстановить",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/UndeleteItem.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem84",
+                        "disabled": false,
+                        "caption": "Фильтр",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/Filter.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.IItem85",
+                        "disabled": false,
+                        "caption": "Поиск",
+                        "hint": "",
+                        "iconname": "Com/Attachment/Icons/Search.svg",
+                        "hidden": false,
+                        "collapsible": true
+                      },
+                      {
+                        "name": "Cmd2.ISeparator86",
+                        "type": "separator",
+                        "caption": "",
+                        "collapsible": false
+                      },
+                      {
+                        "name": "CardExport",
+                        "type": "group",
+                        "hidden": false,
+                        "caption": "Экспорт",
+                        "disabled": false,
+                        "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                        "elements": [
+                          {
+                            "name": "Cmd2.IItem88",
+                            "disabled": false,
+                            "caption": "Экспорт в xml",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          },
+                          {
+                            "name": "Cmd2.IItem89",
+                            "disabled": false,
+                            "caption": "Экспорт в csv",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          },
+                          {
+                            "name": "Cmd2.IItem90",
+                            "disabled": false,
+                            "caption": "Экспорт в ods",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          },
+                          {
+                            "name": "Cmd2.IItem91",
+                            "disabled": false,
+                            "caption": "Экспорт в odt",
+                            "hint": "",
+                            "iconname": "Com/Attachment/Icons/ExportRec.svg",
+                            "hidden": false,
+                            "collapsible": true
+                          }
+                        ]
+                      }
+                    ],
+                    "headers": [
+                      [
+                        {
+                          "name": "DocId",
+                          "linkedColumns": [
+                            "DocId"
+                          ]
+                        },
+                        {
+                          "name": "ExtId",
+                          "linkedColumns": [
+                            "ExtId"
+                          ]
+                        },
+                        {
+                          "name": "Code",
+                          "linkedColumns": [
+                            "Code"
+                          ]
+                        },
+                        {
+                          "name": "Name",
+                          "linkedColumns": [
+                            "Name"
+                          ]
+                        },
+                        {
+                          "name": "CreateDate",
+                          "linkedColumns": [
+                            "CreateDate"
+                          ]
+                        },
+                        {
+                          "name": "CreateUser",
+                          "linkedColumns": [
+                            "CreateUser"
+                          ]
+                        },
+                        {
+                          "name": "UpdateDate",
+                          "linkedColumns": [
+                            "UpdateDate"
+                          ]
+                        },
+                        {
+                          "name": "UpdateUser",
+                          "linkedColumns": [
+                            "UpdateUser"
+                          ]
+                        },
+                        {
+                          "name": "ModifyDate",
+                          "linkedColumns": [
+                            "ModifyDate"
+                          ]
+                        },
+                        {
+                          "name": "ОКУД",
+                          "linkedColumns": [
+                            "ОКУД"
+                          ]
+                        },
+                        {
+                          "name": "Групповой",
+                          "linkedColumns": [
+                            "Групповой"
+                          ]
+                        },
+                        {
+                          "name": "КадровыйДокумент",
+                          "linkedColumns": [
+                            "КадровыйДокумент"
+                          ]
+                        },
+                        {
+                          "name": "Предприятие",
+                          "linkedColumns": [
+                            "Предприятие"
+                          ]
+                        }
+                      ]
+                    ],
+                    "rows": [
+                      [
+                        {
+                          "elements": {
+                            "name": "DocId",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "ExtId",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "Code",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "Name",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "CreateDate",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "date",
+                            "valuetype": "date",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "CreateUser",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "UpdateDate",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "date",
+                            "valuetype": "date",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "UpdateUser",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "ModifyDate",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "date",
+                            "valuetype": "date",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "ОКУД",
+                            "action": [
+                              "onEnter",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "string",
+                            "valuetype": "string",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "Групповой",
+                            "action": [
+                              "onEnter"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "checkbox",
+                            "valuetype": "boolean",
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "КадровыйДокумент",
+                            "action": [
+                              "onChange",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "enum",
+                            "valuetype": "integer",
+                            "isInteger": true,
+                            "listValues": [
+                              {
+                                "value": " ",
+                                "key": 0
+                              },
+                              {
+                                "value": "Прием на работу",
+                                "key": 1
+                              },
+                              {
+                                "value": "Перевод работника",
+                                "key": 4
+                              },
+                              {
+                                "value": "Увольнение работника",
+                                "key": 5
+                              },
+                              {
+                                "value": "Установление надбавок",
+                                "key": 2
+                              },
+                              {
+                                "value": "Отмена надбавок",
+                                "key": 3
+                              },
+                              {
+                                "value": "Увеличение окладов (индексация)",
+                                "key": 9
+                              },
+                              {
+                                "value": "Предоставление отпуска работнику",
+                                "key": 6
+                              },
+                              {
+                                "value": "Отзыв работника из отпуска",
+                                "key": 7
+                              },
+                              {
+                                "value": "Направление работника в командировку",
+                                "key": 8
+                              },
+                              {
+                                "value": "Поощрение работника",
+                                "key": 10
+                              },
+                              {
+                                "value": "Об оплате нерабочих праздничных дней",
+                                "key": 12
+                              },
+                              {
+                                "value": "Об оплате сверхурочной работы",
+                                "key": 13
+                              },
+                              {
+                                "value": "Отсутствие без уважит. причин/ отстранение",
+                                "key": 11
+                              },
+                              {
+                                "value": "Изменение прочих условий",
+                                "key": 14
+                              },
+                              {
+                                "value": "Командировочное удостоверение",
+                                "key": 16
+                              },
+                              {
+                                "value": "Записка-расчет при увольнении работника",
+                                "key": 17
+                              },
+                              {
+                                "value": "Записка-расчет о предоставлении отпуска",
+                                "key": 18
+                              },
+                              {
+                                "value": "Трудовой договор",
+                                "key": 15
+                              },
+                              {
+                                "value": "Договор ГПХ",
+                                "key": 35
+                              },
+                              {
+                                "value": "Личная карточка сотрудника",
+                                "key": 20
+                              },
+                              {
+                                "value": "Штатное расписание",
+                                "key": 21
+                              },
+                              {
+                                "value": "График отпусков",
+                                "key": 22
+                              },
+                              {
+                                "value": "График учета РВ",
+                                "key": 23
+                              },
+                              {
+                                "value": "Табель учета РВ",
+                                "key": 25
+                              },
+                              {
+                                "value": "Оперативный табель учета РВ",
+                                "key": 33
+                              },
+                              {
+                                "value": "Расчет среднего заработка (БЛ, пособия)",
+                                "key": 24
+                              },
+                              {
+                                "value": "Расчет отпуска/компенсации отпуска",
+                                "key": 26
+                              },
+                              {
+                                "value": "Прочие расчеты среднего заработка",
+                                "key": 27
+                              },
+                              {
+                                "value": "Прочие начисления",
+                                "key": 28
+                              },
+                              {
+                                "value": "Удержания. Прочие",
+                                "key": 29
+                              },
+                              {
+                                "value": "Удержания. Исполнительный лист",
+                                "key": 30
+                              },
+                              {
+                                "value": "Расчет премии",
+                                "key": 31
+                              },
+                              {
+                                "value": "Ведомость перечислений на счета",
+                                "key": 32
+                              },
+                              {
+                                "value": "Ведомость в банк (зарплатный проект)",
+                                "key": 34
+                              }
+                            ],
+                            "autocomplete": false
+                          }
+                        },
+                        {
+                          "elements": {
+                            "name": "Предприятие",
+                            "action": [
+                              "onEnter",
+                              "onLookup",
+                              "onEdit"
+                            ],
+                            "iconname": "",
+                            "iconsize": 0,
+                            "type": "reference",
+                            "valuetype": "reference",
+                            "autocomplete": true
+                          }
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "state": [
+        {
+          "name": "ButtonSelectItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 32,
+            "fontSize": "15px"
+          },
+          "iconname": "Com/Attachment/Icons/SelectItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Выбрать"
+        },
+        {
+          "name": "Ctrl.IButton68",
+          "hidden": true
+        },
+        {
+          "name": "ButtonAddItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Добавить",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/AddItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonEditItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Редактировать",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/EditItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonSaveItem",
+          "hidden": true
+        },
+        {
+          "name": "ButtonCancel",
+          "hidden": true
+        },
+        {
+          "name": "Сmd:ReportsList",
+          "hidden": true
+        },
+        {
+          "name": "Cmd:Services",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Сервисы",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "fashion": "Ghost",
+          "iconname": "Com/Attachment/Icons/Services.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "Создать правило генерации уведомления",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Создать правило генерации уведомления",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Control/Attachment/Icons/exclamation.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Создать правило генерации уведомления"
+        },
+        {
+          "name": "ButtonFilters",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Фильтры",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Filters.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonHideClosed",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Только действующие"
+        },
+        {
+          "name": "ButtonNavigationPanel",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": true,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Панель навигации"
+        },
+        {
+          "name": "ButtonHierarchicalView",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Иерархический вид"
+        },
+        {
+          "name": "ButtonShowDeleted",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Удаленные записи"
+        },
+        {
+          "name": "FilterSeparator",
+          "hidden": false,
+          "caption": "-",
+          "disabled": false
+        },
+        {
+          "name": "ButtonNSSaveAs",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Сохранить настройки...",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Bas/Attachment/Icons/puzzle4.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Сохранить настройки..."
+        },
+        {
+          "name": "ButtonNSManager",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Диспетчер настроек",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Bas/Attachment/Icons/puzzleOk.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Диспетчер настроек"
+        },
+        {
+          "name": "ButtonNSDefault",
+          "hidden": true
+        },
+        {
+          "name": "ButtonClose",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Закрыть",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Close.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "Ctrl.IListButton10",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Дополнительно",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/angle-down.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonCloneItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Дублировать",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/CloneItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Дублировать"
+        },
+        {
+          "name": "ButtonDeleteItem",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Удалить",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/DeleteItem.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Удалить"
+        },
+        {
+          "name": "ButtonAddFolder",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Добавить группу",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/AddFolder.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Добавить группу"
+        },
+        {
+          "name": "ButtonFolderElement",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Группа/элемент",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/FolderElement.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Группа/элемент"
+        },
+        {
+          "name": "ButtonRefresh",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Обновить",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Refresh.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Обновить"
+        },
+        {
+          "name": "HeaderSeparator1",
+          "hidden": false,
+          "caption": "-",
+          "disabled": false
+        },
+        {
+          "name": "ButtonHelp",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Помощь",
+          "style": {
+            "textAlign": "center",
+            "width": 10
+          },
+          "iconname": "Com/Attachment/Icons/Help.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Помощь"
+        },
+        {
+          "name": "HeaderFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "backgroundColor": "inherit",
+            "paddingLeft": 8,
+            "paddingTop": 3,
+            "paddingRight": 8,
+            "paddingBottom": 3
+          },
+          "caption": "Типы документов",
+          "scrollerStyle": 1,
+          "autoSize": true,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical",
+          "title": {
+            "hidden": false,
+            "disabled": false,
+            "hint": "",
+            "style": {
+              "textAlign": "left",
+              "fontSize": "18px"
+            },
+            "iconname": "",
+            "iconsize": 0,
+            "wrap": false,
+            "multiline": false,
+            "autoSize": false,
+            "readOnly": true,
+            "value": "Типы документов",
+            "staticStyle": "normalText",
+            "defLabelWidth": 30,
+            "hideCloseButton": true
+          }
+        },
+        {
+          "name": "ButtonTree",
+          "hidden": true
+        },
+        {
+          "name": "ButtonBack",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Назад",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Com/Attachment/Icons/Back.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "ButtonForward",
+          "hidden": false,
+          "disabled": true,
+          "hint": "Вперед",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Com/Attachment/Icons/Forward.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "PathEdit",
+          "hidden": false,
+          "disabled": true,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 100,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "value": "",
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": false,
+          "disableOnEdit": false
+        },
+        {
+          "name": "FilterEdit",
+          "hidden": false,
+          "disabled": false,
+          "hint": "Примеры задания маски строк:\r\n abc  -- строка содержит abc\r\n abc*  -- строка начинается с abc\r\n abc xyz -- строка содержит abc и xyz\r\n abc|xyz -- строка содержит abc или xyz\r\n =abc  -- строка равна abc",
+          "style": {
+            "textAlign": "left",
+            "width": 80,
+            "caretColor": "black"
+          },
+          "iconsize": 0,
+          "color": "#808080",
+          "inputColor": "#000000",
+          "value": "",
+          "formattedValue": "<Код>",
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": false,
+          "disableOnEdit": false
+        },
+        {
+          "name": "FilterEdit1",
+          "hidden": true
+        },
+        {
+          "name": "FilterEdit2",
+          "hidden": true
+        },
+        {
+          "name": "ButtonFields",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "Com/Attachment/Icons/Filters.svg",
+          "iconsize": 16,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": ""
+        },
+        {
+          "name": "Code_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": true,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Код"
+        },
+        {
+          "name": "Name_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Наименование"
+        },
+        {
+          "name": "ОКУД_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Код по ОКУД"
+        },
+        {
+          "name": "Групповой_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Групповой"
+        },
+        {
+          "name": "КадровыйДокумент_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Кадровый документ"
+        },
+        {
+          "name": "Предприятие.Name_FieldBut",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 7.2
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "isPressed": false,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "caption": "Предприятие"
+        },
+        {
+          "name": "NavigatorGroup",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "backgroundColor": "inherit"
+          }
+        },
+        {
+          "name": "NavigatorFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "paddingLeft": 8,
+            "paddingTop": 6,
+            "paddingRight": 8,
+            "paddingBottom": 6,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 0,
+          "autoSize": true,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical"
+        },
+        {
+          "name": "FrameCardTree",
+          "hidden": true
+        },
+        {
+          "name": "DocId",
+          "hidden": true
+        },
+        {
+          "name": "ExtId",
+          "hidden": true
+        },
+        {
+          "name": "Code",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 30,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "Name",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 223.15789,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "CreateDate",
+          "hidden": true
+        },
+        {
+          "name": "CreateUser",
+          "hidden": true
+        },
+        {
+          "name": "UpdateDate",
+          "hidden": true
+        },
+        {
+          "name": "UpdateUser",
+          "hidden": true
+        },
+        {
+          "name": "ModifyDate",
+          "hidden": true
+        },
+        {
+          "name": "ОКУД",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 35,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "Групповой",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "center",
+            "width": 30,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": false,
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "КадровыйДокумент",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 100,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "listValues": [
+            {
+              "value": " ",
+              "key": 0
+            },
+            {
+              "value": "Прием на работу",
+              "key": 1
+            },
+            {
+              "value": "Перевод работника",
+              "key": 4
+            },
+            {
+              "value": "Увольнение работника",
+              "key": 5
+            },
+            {
+              "value": "Установление надбавок",
+              "key": 2
+            },
+            {
+              "value": "Отмена надбавок",
+              "key": 3
+            },
+            {
+              "value": "Увеличение окладов (индексация)",
+              "key": 9
+            },
+            {
+              "value": "Предоставление отпуска работнику",
+              "key": 6
+            },
+            {
+              "value": "Отзыв работника из отпуска",
+              "key": 7
+            },
+            {
+              "value": "Направление работника в командировку",
+              "key": 8
+            },
+            {
+              "value": "Поощрение работника",
+              "key": 10
+            },
+            {
+              "value": "Об оплате нерабочих праздничных дней",
+              "key": 12
+            },
+            {
+              "value": "Об оплате сверхурочной работы",
+              "key": 13
+            },
+            {
+              "value": "Отсутствие без уважит. причин/ отстранение",
+              "key": 11
+            },
+            {
+              "value": "Изменение прочих условий",
+              "key": 14
+            },
+            {
+              "value": "Командировочное удостоверение",
+              "key": 16
+            },
+            {
+              "value": "Записка-расчет при увольнении работника",
+              "key": 17
+            },
+            {
+              "value": "Записка-расчет о предоставлении отпуска",
+              "key": 18
+            },
+            {
+              "value": "Трудовой договор",
+              "key": 15
+            },
+            {
+              "value": "Договор ГПХ",
+              "key": 35
+            },
+            {
+              "value": "Личная карточка сотрудника",
+              "key": 20
+            },
+            {
+              "value": "Штатное расписание",
+              "key": 21
+            },
+            {
+              "value": "График отпусков",
+              "key": 22
+            },
+            {
+              "value": "График учета РВ",
+              "key": 23
+            },
+            {
+              "value": "Табель учета РВ",
+              "key": 25
+            },
+            {
+              "value": "Оперативный табель учета РВ",
+              "key": 33
+            },
+            {
+              "value": "Расчет среднего заработка (БЛ, пособия)",
+              "key": 24
+            },
+            {
+              "value": "Расчет отпуска/компенсации отпуска",
+              "key": 26
+            },
+            {
+              "value": "Прочие расчеты среднего заработка",
+              "key": 27
+            },
+            {
+              "value": "Прочие начисления",
+              "key": 28
+            },
+            {
+              "value": "Удержания. Прочие",
+              "key": 29
+            },
+            {
+              "value": "Удержания. Исполнительный лист",
+              "key": 30
+            },
+            {
+              "value": "Расчет премии",
+              "key": 31
+            },
+            {
+              "value": "Ведомость перечислений на счета",
+              "key": 32
+            },
+            {
+              "value": "Ведомость в банк (зарплатный проект)",
+              "key": 34
+            }
+          ],
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": false,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "Предприятие",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "width": 50,
+            "caretColor": "black"
+          },
+          "iconname": "",
+          "iconsize": 0,
+          "wrap": false,
+          "multiline": false,
+          "autoSize": false,
+          "readOnly": false,
+          "required": false,
+          "showReferenceButton": true,
+          "buttonStyle": "default",
+          "shortlist": false,
+          "autocomplete": true,
+          "autoLock": true,
+          "disableOnEdit": false
+        },
+        {
+          "name": "CardFile",
+          "hidden": false,
+          "rowCount": "4",
+          "currentRowId": "28",
+          "summary": "Количество записей: 4",
+          "isFirstPage": true,
+          "isLastPage": true,
+          "showHierarchyNavigation": false,
+          "isFilterActive": false,
+          "filter": "",
+          "rowsData": [
+            {
+              "rowIndex": "1",
+              "rowId": "15",
+              "isGroup": false,
+              "icon": {
+                "name": "Com/Attachment/Icons/Blank.svg"
+              },
+              "DocId": {
+                "value": 15,
+                "style": {
+                  "textAlign": "center",
+                  "width": 20,
+                  "caretColor": "black"
+                }
+              },
+              "ExtId": {
+                "value": "PJ1IH3CL60PPRU",
+                "style": {
+                  "textAlign": "left",
+                  "width": 25,
+                  "caretColor": "black"
+                }
+              },
+              "Code": {
+                "value": "010",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "Name": {
+                "value": "Приказ (распоряжение) об отмене надбавок (доплат) работникам",
+                "style": {
+                  "textAlign": "left",
+                  "width": 223.15789,
+                  "caretColor": "black"
+                }
+              },
+              "CreateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "CreateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "ModifyDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "ОКУД": {
+                "value": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "Групповой": {
+                "value": true,
+                "style": {
+                  "textAlign": "center",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "КадровыйДокумент": {
+                "value": 3,
+                "style": {
+                  "textAlign": "left",
+                  "width": 100,
+                  "caretColor": "black"
+                }
+              },
+              "Предприятие": {
+                "value": null,
+                "style": {
+                  "textAlign": "left",
+                  "width": 50,
+                  "caretColor": "black"
+                }
+              }
+            },
+            {
+              "rowIndex": "2",
+              "rowId": "16",
+              "isGroup": false,
+              "icon": {
+                "name": "Com/Attachment/Icons/Blank.svg"
+              },
+              "DocId": {
+                "value": 16,
+                "style": {
+                  "textAlign": "center",
+                  "width": 20,
+                  "caretColor": "black"
+                }
+              },
+              "ExtId": {
+                "value": "PJ1IH3CL60PPRV",
+                "style": {
+                  "textAlign": "left",
+                  "width": 25,
+                  "caretColor": "black"
+                }
+              },
+              "Code": {
+                "value": "009",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "Name": {
+                "value": "Приказ (распоряжение) об установлении надбавок (доплат) работникам",
+                "style": {
+                  "textAlign": "left",
+                  "width": 223.15789,
+                  "caretColor": "black"
+                }
+              },
+              "CreateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "CreateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "ModifyDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "ОКУД": {
+                "value": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "Групповой": {
+                "value": true,
+                "style": {
+                  "textAlign": "center",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "КадровыйДокумент": {
+                "value": 2,
+                "style": {
+                  "textAlign": "left",
+                  "width": 100,
+                  "caretColor": "black"
+                }
+              },
+              "Предприятие": {
+                "value": null,
+                "style": {
+                  "textAlign": "left",
+                  "width": 50,
+                  "caretColor": "black"
+                }
+              }
+            },
+            {
+              "rowIndex": "3",
+              "rowId": "27",
+              "isGroup": false,
+              "icon": {
+                "name": "Com/Attachment/Icons/Blank.svg"
+              },
+              "DocId": {
+                "value": 27,
+                "style": {
+                  "textAlign": "center",
+                  "width": 20,
+                  "caretColor": "black"
+                }
+              },
+              "ExtId": {
+                "value": "PJ1IH3CL60PPSA",
+                "style": {
+                  "textAlign": "left",
+                  "width": 25,
+                  "caretColor": "black"
+                }
+              },
+              "Code": {
+                "value": "002",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "Name": {
+                "value": "Приказ (распоряжение) об отмене надбавок (доплат) работнику",
+                "style": {
+                  "textAlign": "left",
+                  "width": 223.15789,
+                  "caretColor": "black"
+                }
+              },
+              "CreateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "CreateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "ModifyDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "ОКУД": {
+                "value": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "Групповой": {
+                "value": false,
+                "style": {
+                  "textAlign": "center",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "КадровыйДокумент": {
+                "value": 3,
+                "style": {
+                  "textAlign": "left",
+                  "width": 100,
+                  "caretColor": "black"
+                }
+              },
+              "Предприятие": {
+                "value": null,
+                "style": {
+                  "textAlign": "left",
+                  "width": 50,
+                  "caretColor": "black"
+                }
+              }
+            },
+            {
+              "rowIndex": "4",
+              "rowId": "28",
+              "isGroup": false,
+              "icon": {
+                "name": "Com/Attachment/Icons/Blank.svg"
+              },
+              "DocId": {
+                "value": 28,
+                "style": {
+                  "textAlign": "center",
+                  "width": 20,
+                  "caretColor": "black"
+                }
+              },
+              "ExtId": {
+                "value": "PJ1IH3CL60PPSB",
+                "style": {
+                  "textAlign": "left",
+                  "width": 25,
+                  "caretColor": "black"
+                }
+              },
+              "Code": {
+                "value": "001",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "Name": {
+                "value": "Приказ (распоряжение) об установлении надбавок (доплат) работнику",
+                "style": {
+                  "textAlign": "left",
+                  "width": 223.15789,
+                  "caretColor": "black"
+                }
+              },
+              "CreateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "CreateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "UpdateUser": {
+                "value": "Администратор",
+                "style": {
+                  "textAlign": "left",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "ModifyDate": {
+                "value": "11.07.2024 16:47:08",
+                "formattedValue": "11.07.2024 16:47:08",
+                "style": {
+                  "textAlign": "center",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "ОКУД": {
+                "value": "",
+                "style": {
+                  "textAlign": "left",
+                  "width": 35,
+                  "caretColor": "black"
+                }
+              },
+              "Групповой": {
+                "value": false,
+                "style": {
+                  "textAlign": "center",
+                  "width": 30,
+                  "caretColor": "black"
+                }
+              },
+              "КадровыйДокумент": {
+                "value": 2,
+                "style": {
+                  "textAlign": "left",
+                  "width": 100,
+                  "caretColor": "black"
+                }
+              },
+              "Предприятие": {
+                "value": null,
+                "style": {
+                  "textAlign": "left",
+                  "width": 50,
+                  "caretColor": "black"
+                }
+              }
+            }
+          ],
+          "draggableColumns": {
+            "columnsReorderMode": "reorder",
+            "disableTableScroll": true
+          },
+          "columnsOrder": {
+            "Code": 0,
+            "Name": 1,
+            "ОКУД": 2,
+            "Групповой": 3,
+            "КадровыйДокумент": 4,
+            "Предприятие": 5
+          },
+          "action": [
+            "onDblClick",
+            "onEnter",
+            "onTop",
+            "onBottom",
+            "onPgUp",
+            "onPgDn",
+            "onMove",
+            "onHeaderCtxMenu",
+            "onHeaderCtxMenuClick",
+            "onMoveRecord"
+          ],
+          "selectedRows": [],
+          "headersData": [
+            [
+              {
+                "name": "DocId",
+                "title": "DocID",
+                "hint": "",
+                "width": 20,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ExtId",
+                "title": "ExtID",
+                "hint": "",
+                "width": 25,
+                "disabled": false,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "Code",
+                "title": "Код",
+                "hint": "",
+                "width": 30,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "Name",
+                "title": "Наименование",
+                "hint": "",
+                "width": 223.15789,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "CreateDate",
+                "title": "Время создания",
+                "hint": "",
+                "width": 35,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "CreateUser",
+                "title": "Создал",
+                "hint": "",
+                "width": 30,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "UpdateDate",
+                "title": "Время изменения",
+                "hint": "",
+                "width": 35,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "UpdateUser",
+                "title": "Изменил",
+                "hint": "",
+                "width": 30,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ModifyDate",
+                "title": "Время модификации",
+                "hint": "",
+                "width": 35,
+                "disabled": true,
+                "hidden": true,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "ОКУД",
+                "title": "Код по ОКУД",
+                "hint": "",
+                "width": 35,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "Групповой",
+                "title": "Групповой",
+                "hint": "",
+                "width": 30,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": false,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "КадровыйДокумент",
+                "title": "Кадровый документ",
+                "hint": "",
+                "width": 100,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              },
+              {
+                "name": "Предприятие",
+                "title": "Предприятие",
+                "hint": "",
+                "width": 50,
+                "disabled": false,
+                "hidden": false,
+                "colspan": 1,
+                "rowspan": 1,
+                "showReferenceButton": true,
+                "sortDir": "none",
+                "action": [
+                  "onClick"
+                ]
+              }
+            ]
+          ],
+          "inplaceEditEnabled": false,
+          "showIcon": true,
+          "showCount": true
+        },
+        {
+          "name": "FrameCardFile",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 1,
+          "autoSize": false,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical"
+        },
+        {
+          "name": "MainFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 0,
+          "autoSize": false,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "horizontal"
+        },
+        {
+          "name": "RootFrame",
+          "hidden": false,
+          "disabled": false,
+          "hint": "",
+          "style": {
+            "textAlign": "left",
+            "size": 1,
+            "border": "",
+            "borderRadius": ""
+          },
+          "caption": "",
+          "scrollerStyle": 0,
+          "autoSize": false,
+          "isFixed": false,
+          "splitterAtRight": false,
+          "useSplitter": false,
+          "canResizeBySplit": false,
+          "canHideBySplit": false,
+          "orientation": "vertical"
+        }
+      ]
+    }
+  ],
+  "interval": "9.47854693990666"
+}

@@ -1,0 +1,6 @@
+RUN	ru.cbgr.qa.stress.mvd.simulation.ScenarioPlatform	scenarioplatform	1723402566189	Нагрузочное тестирование решения ТОРО	3.8.2
+USER	1.	START	1723402567255
+REQUEST	loginAndPassword,Логин в систему	Логин	1723402567395	1723402592966	KO	status.find.is(200), but actually found 400
+GROUP	loginAndPassword,Логин в систему	1723402567255	1723402592998	25571	KO
+GROUP	loginAndPassword	1723402567251	1723402592999	25571	KO
+USER	1.	END	1723402593965

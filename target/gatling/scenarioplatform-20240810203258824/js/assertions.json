@@ -1,0 +1,10 @@
+{
+  "simulation": "ru.cbgr.qa.stress.mvd.simulation.ScenarioPlatform",
+  "simulationId": "scenarioplatform-20240810203258824",
+  "start": 1723321979632,
+  "description": "Нагрузочное тестирование решения ТОРО",
+  "scenarios": ["1."],
+  "assertions": [
+
+  ]
+}
