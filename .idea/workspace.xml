@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c45a9353-4193-4080-8710-de00fa842009" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/json/prepare/Log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/step/prepare/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/cbgr/qa/stress/mvd/step/prepare/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/json/prepare/sendLogin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/testFile.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;4&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/javaProjects/work/ARW-stress-test&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/javaProjects/work/stress/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Runner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/javaProjects/work/ARW-stress-test",
+    "onboarding.tips.debug.path": "C:/javaProjects/work/stress/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\javaProjects\work\stress" />
