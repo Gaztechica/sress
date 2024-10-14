@@ -1,0 +1,692 @@
+18:14:27.869 [TRACE] i.g.a.Gatling$ - Starting
+18:14:27.876 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+18:14:28.069 [TRACE] i.g.a.Gatling$ - Configuration loaded
+18:14:28.070 [TRACE] i.g.a.Gatling$ - ActorSystem instantiated
+18:14:28.390 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+18:14:28.666 [DEBUG] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+18:14:28.780 [DEBUG] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+18:14:28.780 [DEBUG] i.n.u.i.PlatformDependent0 - Java version: 17
+18:14:28.782 [DEBUG] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+18:14:28.783 [DEBUG] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+18:14:28.783 [DEBUG] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+18:14:28.783 [DEBUG] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+18:14:28.785 [DEBUG] i.n.u.i.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88)
+	at io.netty.util.internal.ClassInitializerUtil.tryLoadClasses(ClassInitializerUtil.java:32)
+	at io.netty.channel.epoll.Native.<clinit>(Native.java:72)
+	at io.netty.channel.epoll.Epoll.<clinit>(Epoll.java:40)
+	at io.gatling.netty.util.Transports.newEventLoopGroup(Transports.java:40)
+	at io.gatling.app.Gatling$.start(Gatling.scala:86)
+	at io.gatling.app.Gatling$.fromMap(Gatling.scala:44)
+	at io.gatling.app.Gatling.fromMap(Gatling.scala)
+	at ru.cbgr.qa.stress.mvd.gatling.Runner.main(Runner.java:38)
+18:14:28.786 [DEBUG] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+18:14:28.787 [DEBUG] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @ed7f8b4
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88)
+	at io.netty.util.internal.ClassInitializerUtil.tryLoadClasses(ClassInitializerUtil.java:32)
+	at io.netty.channel.epoll.Native.<clinit>(Native.java:72)
+	at io.netty.channel.epoll.Epoll.<clinit>(Epoll.java:40)
+	at io.gatling.netty.util.Transports.newEventLoopGroup(Transports.java:40)
+	at io.gatling.app.Gatling$.start(Gatling.scala:86)
+	at io.gatling.app.Gatling$.fromMap(Gatling.scala:44)
+	at io.gatling.app.Gatling.fromMap(Gatling.scala)
+	at ru.cbgr.qa.stress.mvd.gatling.Runner.main(Runner.java:38)
+18:14:28.787 [DEBUG] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+18:14:28.787 [DEBUG] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+18:14:28.798 [DEBUG] i.n.u.i.PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+18:14:28.798 [DEBUG] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\User\AppData\Local\Temp (java.io.tmpdir)
+18:14:28.798 [DEBUG] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+18:14:28.799 [DEBUG] i.n.u.i.PlatformDependent - Platform: Windows
+18:14:28.800 [DEBUG] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+18:14:28.800 [DEBUG] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+18:14:28.801 [DEBUG] i.n.u.i.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+18:14:28.801 [DEBUG] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+18:14:28.807 [DEBUG] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+18:14:28.821 [DEBUG] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+18:14:28.821 [DEBUG] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+18:14:28.825 [DEBUG] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+18:14:28.825 [DEBUG] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+18:14:28.833 [DEBUG] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+18:14:28.836 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@433ffad1
+18:14:28.837 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2d35442b
+18:14:28.838 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@27f9e982
+18:14:28.839 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4593ff34
+18:14:28.839 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@37d3d232
+18:14:28.840 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@30c0ccff
+18:14:28.841 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@581d969c
+18:14:28.843 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@22db8f4
+18:14:28.847 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b46a8c1
+18:14:28.849 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1d572e62
+18:14:28.850 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@29caf222
+18:14:28.851 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@46cf05f7
+18:14:28.852 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5851bd4f
+18:14:28.853 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7cd1ac19
+18:14:28.854 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2f40a43
+18:14:28.855 [TRACE] i.n.c.n.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3caa4757
+18:14:28.857 [TRACE] i.g.a.Gatling$ - Runner instantiated
+18:14:28.857 [TRACE] i.g.app.Runner - Running
+18:14:40.146 [TRACE] i.g.app.Runner - Simulation params built
+18:14:40.146 [TRACE] i.g.app.Runner - Before hook executed
+18:14:40.161 [TRACE] i.g.app.Runner - CoreComponents instantiated
+18:14:40.170 [DEBUG] i.n.u.i.NativeLibraryLoader - -Dio.netty.native.workdir: C:\Users\User\AppData\Local\Temp (io.netty.tmpdir)
+18:14:40.170 [DEBUG] i.n.u.i.NativeLibraryLoader - -Dio.netty.native.deleteLibAfterLoading: true
+18:14:40.170 [DEBUG] i.n.u.i.NativeLibraryLoader - -Dio.netty.native.tryPatchShadedId: true
+18:14:40.170 [DEBUG] i.n.u.i.NativeLibraryLoader - -Dio.netty.native.detectNativeLibraryDuplicates: true
+18:14:40.466 [DEBUG] i.n.u.i.NativeLibraryLoader - Successfully loaded the library C:\Users\User\AppData\Local\Temp\netty_tcnative_windows_x86_6417597944039479422692.dll
+18:14:40.467 [DEBUG] i.n.u.i.NativeLibraryLoader - Loaded library with name 'netty_tcnative_windows_x86_64'
+18:14:40.467 [DEBUG] i.n.h.s.OpenSsl - Initialize netty-tcnative using engine: 'default'
+18:14:40.467 [DEBUG] i.n.h.s.OpenSsl - netty-tcnative using native library: BoringSSL
+18:14:40.485 [DEBUG] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+18:14:40.486 [DEBUG] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+18:14:40.489 [DEBUG] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+18:14:40.489 [DEBUG] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+18:14:40.489 [DEBUG] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78d6447a
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+18:14:40.502 [DEBUG] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+18:14:40.508 [DEBUG] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+18:14:40.508 [DEBUG] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+18:14:40.509 [DEBUG] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+18:14:40.516 [DEBUG] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7a0e7ecd
+18:14:40.523 [DEBUG] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+18:14:40.523 [DEBUG] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+18:14:40.523 [DEBUG] i.n.u.Recycler - -Dio.netty.recycler.chunkSize: 32
+18:14:40.523 [DEBUG] i.n.u.Recycler - -Dio.netty.recycler.blocking: false
+18:14:40.540 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 => ECDHE-ECDSA-AES128-GCM-SHA256
+18:14:40.540 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 => ECDHE-ECDSA-AES128-GCM-SHA256
+18:14:40.540 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 => ECDHE-RSA-AES128-GCM-SHA256
+18:14:40.540 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256 => ECDHE-RSA-AES128-GCM-SHA256
+18:14:40.540 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 => ECDHE-ECDSA-AES256-GCM-SHA384
+18:14:40.540 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 => ECDHE-ECDSA-AES256-GCM-SHA384
+18:14:40.540 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 => ECDHE-RSA-AES256-GCM-SHA384
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_256_GCM_SHA384 => ECDHE-RSA-AES256-GCM-SHA384
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-ECDSA-CHACHA20-POLY1305
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-ECDSA-CHACHA20-POLY1305
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-RSA-CHACHA20-POLY1305
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-RSA-CHACHA20-POLY1305
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-PSK-CHACHA20-POLY1305
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-PSK-CHACHA20-POLY1305
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA => ECDHE-ECDSA-AES128-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA => ECDHE-ECDSA-AES128-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA => ECDHE-RSA-AES128-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA => ECDHE-RSA-AES128-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA => ECDHE-PSK-AES128-CBC-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_PSK_WITH_AES_128_CBC_SHA => ECDHE-PSK-AES128-CBC-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA => ECDHE-ECDSA-AES256-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA => ECDHE-ECDSA-AES256-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA => ECDHE-RSA-AES256-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA => ECDHE-RSA-AES256-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA => ECDHE-PSK-AES256-CBC-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_ECDHE_PSK_WITH_AES_256_CBC_SHA => ECDHE-PSK-AES256-CBC-SHA
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_RSA_WITH_AES_128_GCM_SHA256 => AES128-GCM-SHA256
+18:14:40.541 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_RSA_WITH_AES_128_GCM_SHA256 => AES128-GCM-SHA256
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_RSA_WITH_AES_256_GCM_SHA384 => AES256-GCM-SHA384
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_RSA_WITH_AES_256_GCM_SHA384 => AES256-GCM-SHA384
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_RSA_WITH_AES_128_CBC_SHA => AES128-SHA
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_RSA_WITH_AES_128_CBC_SHA => AES128-SHA
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_PSK_WITH_AES_128_CBC_SHA => PSK-AES128-CBC-SHA
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_PSK_WITH_AES_128_CBC_SHA => PSK-AES128-CBC-SHA
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_RSA_WITH_AES_256_CBC_SHA => AES256-SHA
+18:14:40.542 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_RSA_WITH_AES_256_CBC_SHA => AES256-SHA
+18:14:40.543 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_PSK_WITH_AES_256_CBC_SHA => PSK-AES256-CBC-SHA
+18:14:40.543 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_PSK_WITH_AES_256_CBC_SHA => PSK-AES256-CBC-SHA
+18:14:40.543 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: TLS_RSA_WITH_3DES_EDE_CBC_SHA => DES-CBC3-SHA
+18:14:40.543 [DEBUG] i.n.h.s.CipherSuiteConverter - Cipher suite mapping: SSL_RSA_WITH_3DES_EDE_CBC_SHA => DES-CBC3-SHA
+18:14:40.544 [DEBUG] i.n.h.s.OpenSsl - Supported protocols (OpenSSL): [SSLv2Hello, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3] 
+18:14:40.544 [DEBUG] i.n.h.s.OpenSsl - Default cipher suites (OpenSSL): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_CHACHA20_POLY1305_SHA256]
+18:14:40.605 [DEBUG] i.g.h.e.HttpEngine - Start warm up
+18:14:40.888 [DEBUG] i.g.h.c.p.ChannelPool - No channel in the pool for key ChannelPoolKey{clientId=0, remoteKey=RemoteKey{targetHostBaseUrl='https://gatling.io', virtualHost='null', proxyHost='null', proxyPort=0}}
+18:14:41.023 [DEBUG] i.g.h.c.i.DefaultHttpClient - Opening new channel
+18:14:41.051 [DEBUG] i.n.c.DefaultChannelId - -Dio.netty.processId: 6652 (auto-detected)
+18:14:41.053 [DEBUG] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+18:14:41.053 [DEBUG] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+18:14:41.071 [DEBUG] i.n.u.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+18:14:41.071 [DEBUG] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+18:14:41.143 [DEBUG] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:05:9a:ff:fe:3c:7a:00 (auto-detected)
+18:14:41.229 [DEBUG] i.g.h.c.i.DefaultHttpClient - Installing SslHandler for https://gatling.io
+18:14:41.234 [DEBUG] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5738fa95
+18:14:41.357 [DEBUG] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=gatling.io
+18:14:41.360 [DEBUG] i.g.h.c.i.DefaultHttpClient - TLS handshake successful: protocol=TLSv1.3 cipher suite=TLS_AES_128_GCM_SHA256
+18:14:41.370 [DEBUG] i.g.h.c.i.HttpAppHandler - Write request WritableRequest{request=DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 0, cap: 0))
+GET / HTTP/1.1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+accept-language: en-US,en;q=0.5
+accept-encoding: gzip
+connection: close
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+host: gatling.io, content=null}
+18:14:41.385 [DEBUG] i.n.h.s.SslHandler - [id: 0xb4335d81, L:/192.168.1.8:54432 - R:gatling.io/199.60.103.160:443] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+18:14:41.895 [DEBUG] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to gatling.io/199.60.103.160:443 after 1000 ms
+18:14:41.898 [DEBUG] i.g.h.e.HttpEngine - Warm up done
+18:14:41.986 [DEBUG] i.g.h.c.Http2PriorKnowledgeSupport$ - HTTP/2 disabled
+18:14:41.988 [TRACE] i.g.app.Runner - Asking Controller to start
+18:14:41.998 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+18:14:41.998 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+18:14:41.998 [INFO ] i.g.g.GraphiteDataWriter - Initializing
+18:14:42.009 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+18:14:42.016 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+18:14:42.019 [INFO ] i.g.g.GraphiteDataWriter - Initialized
+18:14:42.044 [TRACE] i.g.c.c.i.o.OpenWorkload - Injecting 1 users in scenario 1., continue=false
+18:14:42.045 [INFO ] i.g.c.c.i.o.OpenWorkload - Scenario io.gatling.core.scenario.Scenario@6f4b05f5 has finished injecting
+18:14:42.046 [INFO ] i.g.c.c.i.Injector - All scenarios have finished injecting
+18:14:42.051 [DEBUG] i.g.c.c.i.o.OpenWorkload - Start user #1
+18:14:42.053 [DEBUG] i.g.c.a.Pause - Pausing for 100ms
+18:14:42.198 [DEBUG] i.g.h.e.t.HttpTxExecutor - Sending request=Логин uri=http://23.111.202.224:8081/account/login: scenario=1., userId=1
+18:14:42.205 [DEBUG] i.g.h.c.p.ChannelPool - No channel in the pool for key ChannelPoolKey{clientId=1, remoteKey=RemoteKey{targetHostBaseUrl='http://23.111.202.224:8081', virtualHost='null', proxyHost='null', proxyPort=0}}
+18:14:42.206 [DEBUG] i.g.h.c.i.DefaultHttpClient - Opening new channel
+18:14:42.236 [DEBUG] i.g.h.c.i.HttpAppHandler - Write request WritableRequest{request=DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 66, cap: 66, components=5))
+POST /account/login HTTP/1.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+accept: application/json
+content-type: application/json
+host: 23.111.202.224:8081
+content-length: 66, content=null}
+18:14:42.292 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 15 Aug 2024 14:07:34 GMT
+Connection: close'
+18:14:42.293 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpContent(data: PooledSlicedByteBuf(ridx: 0, widx: 49, cap: 49/49, unwrapped: PooledUnsafeDirectByteBuf(ridx: 459, widx: 459, cap: 2048)), decoderResult: success)'
+18:14:42.294 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='EmptyLastHttpContent'
+18:14:42.310 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - Request 'Логин' failed for user 1: status.find.is(200), but actually found 400
+18:14:42.316 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Логин: KO status.find.is(200), but actually found 400
+=========================
+Session:
+Session(1.,1,HashMap(gatling.http.cache.baseUrl -> http://23.111.202.224:8081, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@b5832d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@12149d73, login -> f.ff.1980@list.ru>, password -> 012345678>),KO,List(GroupBlock(List(loginAndPassword, Логин в систему),1723731282052,89,KO), GroupBlock(List(loginAndPassword),1723731282047,89,KO)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$622/0x000001989a1cc400@745aed75,io.netty.channel.nio.NioEventLoop@4cc61eb1)
+=========================
+HTTP request:
+POST http://23.111.202.224:8081/account/login
+headers:
+	user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+	accept: application/json
+	content-type: application/json
+	host: 23.111.202.224:8081
+	content-length: 66
+body:StringChunksRequestBody{charset=UTF-8, content={
+  "email": "f.ff.1980@list.ru>",
+  "password": "012345678>"
+}}
+=========================
+HTTP response:
+status:
+	400 
+headers:
+	Vary: Origin
+	Vary: Access-Control-Request-Method
+	Vary: Access-Control-Request-Headers
+	X-Content-Type-Options: nosniff
+	X-XSS-Protection: 1; mode=block
+	Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+	Pragma: no-cache
+	Expires: 0
+	X-Frame-Options: DENY
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Thu, 15 Aug 2024 14:07:34 GMT
+	Connection: close
+
+body:
+{"violation":{"error":"Wrong email or password"}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+18:14:42.317 [DEBUG] i.g.h.e.t.HttpTxExecutor - Sending request=Логин - установить роль uri=http://23.111.202.224:8081/log?contextOrganizationId=57: scenario=1., userId=1
+18:14:42.317 [DEBUG] i.g.h.c.p.ChannelPool - No channel in the pool for key ChannelPoolKey{clientId=1, remoteKey=RemoteKey{targetHostBaseUrl='http://23.111.202.224:8081', virtualHost='null', proxyHost='null', proxyPort=0}}
+18:14:42.318 [DEBUG] i.g.h.c.i.DefaultHttpClient - Opening new channel
+18:14:42.341 [DEBUG] i.g.h.c.i.HttpAppHandler - Write request WritableRequest{request=DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledHeapByteBuf(ridx: 0, widx: 75, cap: 75/75))
+POST /log?contextOrganizationId=57 HTTP/1.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+accept: application/json
+content-type: application/json
+host: 23.111.202.224:8081
+content-length: 75, content=null}
+18:14:42.372 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 403 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 15 Aug 2024 14:07:34 GMT'
+18:14:42.372 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpContent(data: PooledSlicedByteBuf(ridx: 0, widx: 92, cap: 92/92, unwrapped: PooledUnsafeDirectByteBuf(ridx: 483, widx: 488, cap: 2048)), decoderResult: success)'
+18:14:42.372 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='EmptyLastHttpContent'
+18:14:42.372 [DEBUG] i.g.h.c.p.ChannelPool - Offering channel entry ChannelPoolKey{clientId=1, remoteKey=RemoteKey{targetHostBaseUrl='http://23.111.202.224:8081', virtualHost='null', proxyHost='null', proxyPort=0}} to pool
+18:14:42.373 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - Request 'Логин - установить роль' failed for user 1: status.find.is(200), but actually found 403
+18:14:42.373 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Логин - установить роль: KO status.find.is(200), but actually found 403
+=========================
+Session:
+Session(1.,1,HashMap(gatling.http.cache.baseUrl -> http://23.111.202.224:8081, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@b5832d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@12149d73, login -> f.ff.1980@list.ru>, password -> 012345678>),KO,List(GroupBlock(List(loginAndPassword, Логин в систему),1723731282052,143,KO), GroupBlock(List(loginAndPassword),1723731282047,143,KO)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$622/0x000001989a1cc400@745aed75,io.netty.channel.nio.NioEventLoop@4cc61eb1)
+=========================
+HTTP request:
+POST http://23.111.202.224:8081/log?contextOrganizationId=57
+headers:
+	user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+	accept: application/json
+	content-type: application/json
+	host: 23.111.202.224:8081
+	content-length: 75
+body:StringChunksRequestBody{charset=UTF-8, content={
+  "accountId": 359,
+  "creationDate": "2024-08-12T07:46:17.518415"
+
+}}
+=========================
+HTTP response:
+status:
+	403 
+headers:
+	Vary: Origin
+	Vary: Access-Control-Request-Method
+	Vary: Access-Control-Request-Headers
+	X-Content-Type-Options: nosniff
+	X-XSS-Protection: 1; mode=block
+	Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+	Pragma: no-cache
+	Expires: 0
+	X-Frame-Options: DENY
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Thu, 15 Aug 2024 14:07:34 GMT
+
+body:
+{"timestamp":"2024-08-15T14:07:34.437+00:00","status":403,"error":"Forbidden","path":"/log"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+18:14:42.373 [DEBUG] i.g.c.a.Pause - Pausing for 2000ms
+18:14:43.028 [DEBUG] i.g.g.m.GraphiteMetrics$ - GraphiteMetrics=gatling.scenarioplatform.users.1-.active 1 1723731283
+gatling.scenarioplatform.users.1-.waiting 0 1723731283
+gatling.scenarioplatform.users.1-.done 0 1723731283
+gatling.scenarioplatform.users.allUsers.active 1 1723731283
+gatling.scenarioplatform.users.allUsers.waiting 0 1723731283
+gatling.scenarioplatform.users.allUsers.done 0 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ok.count 0 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.count 1 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.min 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.max 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.mean 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.stdDev 0 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.percentiles50 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.percentiles90 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.percentiles95 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.percentiles99 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.count 1 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.min 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.max 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.mean 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.stdDev 0 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.percentiles50 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.percentiles90 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.percentiles95 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.percentiles99 89 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ok.count 0 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.count 1 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.min 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.max 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.mean 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.stdDev 0 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.percentiles50 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.percentiles90 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.percentiles95 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.percentiles99 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.count 1 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.min 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.max 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.mean 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.stdDev 0 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.percentiles50 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.percentiles90 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.percentiles95 54 1723731283
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.percentiles99 54 1723731283
+gatling.scenarioplatform.allRequests.ok.count 0 1723731283
+gatling.scenarioplatform.allRequests.ko.count 2 1723731283
+gatling.scenarioplatform.allRequests.ko.min 54 1723731283
+gatling.scenarioplatform.allRequests.ko.max 89 1723731283
+gatling.scenarioplatform.allRequests.ko.mean 71 1723731283
+gatling.scenarioplatform.allRequests.ko.stdDev 17 1723731283
+gatling.scenarioplatform.allRequests.ko.percentiles50 54 1723731283
+gatling.scenarioplatform.allRequests.ko.percentiles90 89 1723731283
+gatling.scenarioplatform.allRequests.ko.percentiles95 89 1723731283
+gatling.scenarioplatform.allRequests.ko.percentiles99 89 1723731283
+gatling.scenarioplatform.allRequests.all.count 2 1723731283
+gatling.scenarioplatform.allRequests.all.min 54 1723731283
+gatling.scenarioplatform.allRequests.all.max 89 1723731283
+gatling.scenarioplatform.allRequests.all.mean 71 1723731283
+gatling.scenarioplatform.allRequests.all.stdDev 17 1723731283
+gatling.scenarioplatform.allRequests.all.percentiles50 54 1723731283
+gatling.scenarioplatform.allRequests.all.percentiles90 89 1723731283
+gatling.scenarioplatform.allRequests.all.percentiles95 89 1723731283
+gatling.scenarioplatform.allRequests.all.percentiles99 89 1723731283
+
+18:14:44.031 [DEBUG] i.g.g.m.GraphiteMetrics$ - GraphiteMetrics=gatling.scenarioplatform.users.1-.active 1 1723731284
+gatling.scenarioplatform.users.1-.waiting 0 1723731284
+gatling.scenarioplatform.users.1-.done 0 1723731284
+gatling.scenarioplatform.users.allUsers.active 1 1723731284
+gatling.scenarioplatform.users.allUsers.waiting 0 1723731284
+gatling.scenarioplatform.users.allUsers.done 0 1723731284
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ok.count 0 1723731284
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.count 0 1723731284
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.count 0 1723731284
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ok.count 0 1723731284
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.count 0 1723731284
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.count 0 1723731284
+gatling.scenarioplatform.allRequests.ok.count 0 1723731284
+gatling.scenarioplatform.allRequests.ko.count 0 1723731284
+gatling.scenarioplatform.allRequests.all.count 0 1723731284
+
+18:14:44.385 [DEBUG] i.g.h.e.t.HttpTxExecutor - Sending request=PreLogin uri=http://23.111.202.224:8081/notification/personal/all?contextOrganizationId=57&accountId=359&page=0&size=20: scenario=1., userId=1
+18:14:44.385 [DEBUG] i.g.h.c.p.ChannelPool - Retrieved HTTP/1 channel from pool for key ChannelPoolKey{clientId=1, remoteKey=RemoteKey{targetHostBaseUrl='http://23.111.202.224:8081', virtualHost='null', proxyHost='null', proxyPort=0}}
+18:14:44.385 [DEBUG] i.g.h.c.i.HttpAppHandler - Write request WritableRequest{request=DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 0, cap: 0))
+GET /notification/personal/all?contextOrganizationId=57&accountId=359&page=0&size=20 HTTP/1.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+accept: application/json
+content-type: application/json
+host: 23.111.202.224:8081, content=null}
+18:14:44.413 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 403 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 15 Aug 2024 14:07:36 GMT'
+18:14:44.413 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpContent(data: PooledSlicedByteBuf(ridx: 0, widx: 114, cap: 114/114, unwrapped: PooledUnsafeDirectByteBuf(ridx: 505, widx: 505, cap: 2048)), decoderResult: success)'
+18:14:44.415 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='EmptyLastHttpContent'
+18:14:44.415 [DEBUG] i.g.h.c.p.ChannelPool - Offering channel entry ChannelPoolKey{clientId=1, remoteKey=RemoteKey{targetHostBaseUrl='http://23.111.202.224:8081', virtualHost='null', proxyHost='null', proxyPort=0}} to pool
+18:14:44.416 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - Request 'PreLogin' failed for user 1: status.find.is(200), but actually found 403
+18:14:44.417 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+PreLogin: KO status.find.is(200), but actually found 403
+=========================
+Session:
+Session(1.,1,HashMap(gatling.http.cache.baseUrl -> http://23.111.202.224:8081, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@b5832d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@12149d73, login -> f.ff.1980@list.ru>, password -> 012345678>),KO,List(GroupBlock(List(loginAndPassword, Логин в систему),1723731282052,173,KO), GroupBlock(List(loginAndPassword),1723731282047,173,KO)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$622/0x000001989a1cc400@745aed75,io.netty.channel.nio.NioEventLoop@4cc61eb1)
+=========================
+HTTP request:
+GET http://23.111.202.224:8081/notification/personal/all?contextOrganizationId=57&accountId=359&page=0&size=20
+headers:
+	user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+	accept: application/json
+	content-type: application/json
+	host: 23.111.202.224:8081
+=========================
+HTTP response:
+status:
+	403 
+headers:
+	Vary: Origin
+	Vary: Access-Control-Request-Method
+	Vary: Access-Control-Request-Headers
+	X-Content-Type-Options: nosniff
+	X-XSS-Protection: 1; mode=block
+	Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+	Pragma: no-cache
+	Expires: 0
+	X-Frame-Options: DENY
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Thu, 15 Aug 2024 14:07:36 GMT
+
+body:
+{"timestamp":"2024-08-15T14:07:36.479+00:00","status":403,"error":"Forbidden","path":"/notification/personal/all"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+18:14:44.417 [DEBUG] i.g.c.a.Pause - Pausing for 2000ms
+18:14:45.039 [DEBUG] i.g.g.m.GraphiteMetrics$ - GraphiteMetrics=gatling.scenarioplatform.users.1-.active 1 1723731285
+gatling.scenarioplatform.users.1-.waiting 0 1723731285
+gatling.scenarioplatform.users.1-.done 0 1723731285
+gatling.scenarioplatform.users.allUsers.active 1 1723731285
+gatling.scenarioplatform.users.allUsers.waiting 0 1723731285
+gatling.scenarioplatform.users.allUsers.done 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ok.count 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.count 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.count 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ok.count 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.count 1 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.min 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.max 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.mean 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.stdDev 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.percentiles50 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.percentiles90 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.percentiles95 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.percentiles99 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.count 1 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.min 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.max 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.mean 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.stdDev 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.percentiles50 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.percentiles90 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.percentiles95 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.percentiles99 30 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ok.count 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.count 0 1723731285
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.count 0 1723731285
+gatling.scenarioplatform.allRequests.ok.count 0 1723731285
+gatling.scenarioplatform.allRequests.ko.count 1 1723731285
+gatling.scenarioplatform.allRequests.ko.min 30 1723731285
+gatling.scenarioplatform.allRequests.ko.max 30 1723731285
+gatling.scenarioplatform.allRequests.ko.mean 30 1723731285
+gatling.scenarioplatform.allRequests.ko.stdDev 0 1723731285
+gatling.scenarioplatform.allRequests.ko.percentiles50 30 1723731285
+gatling.scenarioplatform.allRequests.ko.percentiles90 30 1723731285
+gatling.scenarioplatform.allRequests.ko.percentiles95 30 1723731285
+gatling.scenarioplatform.allRequests.ko.percentiles99 30 1723731285
+gatling.scenarioplatform.allRequests.all.count 1 1723731285
+gatling.scenarioplatform.allRequests.all.min 30 1723731285
+gatling.scenarioplatform.allRequests.all.max 30 1723731285
+gatling.scenarioplatform.allRequests.all.mean 30 1723731285
+gatling.scenarioplatform.allRequests.all.stdDev 0 1723731285
+gatling.scenarioplatform.allRequests.all.percentiles50 30 1723731285
+gatling.scenarioplatform.allRequests.all.percentiles90 30 1723731285
+gatling.scenarioplatform.allRequests.all.percentiles95 30 1723731285
+gatling.scenarioplatform.allRequests.all.percentiles99 30 1723731285
+
+18:14:46.021 [DEBUG] i.g.g.m.GraphiteMetrics$ - GraphiteMetrics=gatling.scenarioplatform.users.1-.active 1 1723731286
+gatling.scenarioplatform.users.1-.waiting 0 1723731286
+gatling.scenarioplatform.users.1-.done 0 1723731286
+gatling.scenarioplatform.users.allUsers.active 1 1723731286
+gatling.scenarioplatform.users.allUsers.waiting 0 1723731286
+gatling.scenarioplatform.users.allUsers.done 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ok.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ok.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ok.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.count 0 1723731286
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.count 0 1723731286
+gatling.scenarioplatform.allRequests.ok.count 0 1723731286
+gatling.scenarioplatform.allRequests.ko.count 0 1723731286
+gatling.scenarioplatform.allRequests.all.count 0 1723731286
+
+18:14:46.422 [DEBUG] i.g.h.e.t.HttpTxExecutor - Sending request=GetPostLoginForm uri=http://23.111.202.224:8081/notification/personal/unread?contextOrganizationId=57&accountId=359: scenario=1., userId=1
+18:14:46.422 [DEBUG] i.g.h.c.p.ChannelPool - Retrieved HTTP/1 channel from pool for key ChannelPoolKey{clientId=1, remoteKey=RemoteKey{targetHostBaseUrl='http://23.111.202.224:8081', virtualHost='null', proxyHost='null', proxyPort=0}}
+18:14:46.423 [DEBUG] i.g.h.c.i.HttpAppHandler - Write request WritableRequest{request=DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 0, cap: 0))
+GET /notification/personal/unread?contextOrganizationId=57&accountId=359 HTTP/1.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+accept: application/json
+content-type: application/json
+host: 23.111.202.224:8081, content=null}
+18:14:46.448 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 403 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 15 Aug 2024 14:07:38 GMT'
+18:14:46.449 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='DefaultHttpContent(data: PooledSlicedByteBuf(ridx: 0, widx: 117, cap: 117/117, unwrapped: PooledUnsafeDirectByteBuf(ridx: 508, widx: 508, cap: 1024)), decoderResult: success)'
+18:14:46.449 [DEBUG] i.g.h.c.i.HttpAppHandler - Read msg='EmptyLastHttpContent'
+18:14:46.449 [DEBUG] i.g.h.c.p.ChannelPool - Offering channel entry ChannelPoolKey{clientId=1, remoteKey=RemoteKey{targetHostBaseUrl='http://23.111.202.224:8081', virtualHost='null', proxyHost='null', proxyPort=0}} to pool
+18:14:46.450 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - Request 'GetPostLoginForm' failed for user 1: status.find.is(200), but actually found 403
+18:14:46.450 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+GetPostLoginForm: KO status.find.is(200), but actually found 403
+=========================
+Session:
+Session(1.,1,HashMap(gatling.http.cache.baseUrl -> http://23.111.202.224:8081, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@b5832d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@12149d73, login -> f.ff.1980@list.ru>, password -> 012345678>),KO,List(GroupBlock(List(loginAndPassword, Логин в систему),1723731282052,199,KO), GroupBlock(List(loginAndPassword),1723731282047,199,KO)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$622/0x000001989a1cc400@745aed75,io.netty.channel.nio.NioEventLoop@4cc61eb1)
+=========================
+HTTP request:
+GET http://23.111.202.224:8081/notification/personal/unread?contextOrganizationId=57&accountId=359
+headers:
+	user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+	accept: application/json
+	content-type: application/json
+	host: 23.111.202.224:8081
+=========================
+HTTP response:
+status:
+	403 
+headers:
+	Vary: Origin
+	Vary: Access-Control-Request-Method
+	Vary: Access-Control-Request-Headers
+	X-Content-Type-Options: nosniff
+	X-XSS-Protection: 1; mode=block
+	Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+	Pragma: no-cache
+	Expires: 0
+	X-Frame-Options: DENY
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Thu, 15 Aug 2024 14:07:38 GMT
+
+body:
+{"timestamp":"2024-08-15T14:07:38.516+00:00","status":403,"error":"Forbidden","path":"/notification/personal/unread"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+18:14:46.450 [DEBUG] i.g.c.a.Pause - Pausing for 2000ms
+18:14:47.033 [DEBUG] i.g.g.m.GraphiteMetrics$ - GraphiteMetrics=gatling.scenarioplatform.users.1-.active 1 1723731287
+gatling.scenarioplatform.users.1-.waiting 0 1723731287
+gatling.scenarioplatform.users.1-.done 0 1723731287
+gatling.scenarioplatform.users.allUsers.active 1 1723731287
+gatling.scenarioplatform.users.allUsers.waiting 0 1723731287
+gatling.scenarioplatform.users.allUsers.done 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ok.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.count 1 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.min 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.max 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.mean 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.stdDev 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.percentiles50 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.percentiles90 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.percentiles95 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.percentiles99 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.count 1 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.min 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.max 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.mean 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.stdDev 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.percentiles50 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.percentiles90 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.percentiles95 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.percentiles99 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ok.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ok.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.count 0 1723731287
+gatling.scenarioplatform.allRequests.ok.count 0 1723731287
+gatling.scenarioplatform.allRequests.ko.count 1 1723731287
+gatling.scenarioplatform.allRequests.ko.min 26 1723731287
+gatling.scenarioplatform.allRequests.ko.max 26 1723731287
+gatling.scenarioplatform.allRequests.ko.mean 26 1723731287
+gatling.scenarioplatform.allRequests.ko.stdDev 0 1723731287
+gatling.scenarioplatform.allRequests.ko.percentiles50 26 1723731287
+gatling.scenarioplatform.allRequests.ko.percentiles90 26 1723731287
+gatling.scenarioplatform.allRequests.ko.percentiles95 26 1723731287
+gatling.scenarioplatform.allRequests.ko.percentiles99 26 1723731287
+gatling.scenarioplatform.allRequests.all.count 1 1723731287
+gatling.scenarioplatform.allRequests.all.min 26 1723731287
+gatling.scenarioplatform.allRequests.all.max 26 1723731287
+gatling.scenarioplatform.allRequests.all.mean 26 1723731287
+gatling.scenarioplatform.allRequests.all.stdDev 0 1723731287
+gatling.scenarioplatform.allRequests.all.percentiles50 26 1723731287
+gatling.scenarioplatform.allRequests.all.percentiles90 26 1723731287
+gatling.scenarioplatform.allRequests.all.percentiles95 26 1723731287
+gatling.scenarioplatform.allRequests.all.percentiles99 26 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ok.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.count 0 1723731287
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.count 0 1723731287
+
+18:14:48.031 [DEBUG] i.g.g.m.GraphiteMetrics$ - GraphiteMetrics=gatling.scenarioplatform.users.1-.active 1 1723731288
+gatling.scenarioplatform.users.1-.waiting 0 1723731288
+gatling.scenarioplatform.users.1-.done 0 1723731288
+gatling.scenarioplatform.users.allUsers.active 1 1723731288
+gatling.scenarioplatform.users.allUsers.waiting 0 1723731288
+gatling.scenarioplatform.users.allUsers.done 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ok.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.ko.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.GetPostLoginForm.all.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ok.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.ko.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин.all.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ok.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.ko.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.Логин_-_установить_роль.all.count 0 1723731288
+gatling.scenarioplatform.allRequests.ok.count 0 1723731288
+gatling.scenarioplatform.allRequests.ko.count 0 1723731288
+gatling.scenarioplatform.allRequests.all.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ok.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.ko.count 0 1723731288
+gatling.scenarioplatform.loginAndPassword.Логин_в_систему.PreLogin.all.count 0 1723731288
+
+18:14:48.466 [DEBUG] i.g.c.a.Pause - Pausing for 253ms
+18:14:48.731 [DEBUG] i.g.c.a.Pause - Pausing for 235735ms
